@@ -1,0 +1,58 @@
+/* ----------------- TAG SELECTORS --------------------------*/
+body{
+    text-align: center;
+    margin-left: auto;
+}
+
+/* ----------------CLASS SELECTORS-------------------------- */
+/* Search Box */
+.search-prompt{
+    margin-top: 10rem;
+}
+
+.search-form{
+    margin: auto 5rem;
+}
+
+.search-heading{
+    
+    font-size: 4.5rem;
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 1rem;
+}
+
+/* Search Results */
+
+.result-heading{
+    text-align: center;
+    margin-left: auto;
+}
+
+.container-fluid{
+    margin: auto auto;
+}
+
+.search-results{
+    width:65%;
+    margin: auto;
+    margin-left: 5rem;
+}
+
+.card{
+    margin: 0.5rem auto;
+    text-align: left;
+    padding: 0 2rem;
+}
+
+.card-title{
+    font-size: 2.25rem;
+}
+
+.card a{
+    color:#0D7377;
+}
+
+.card a:hover{
+    color:#14585a;
+}
