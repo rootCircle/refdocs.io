@@ -407,13 +407,41 @@ a, button {
 .card:nth-child(2){
 	border-top: 5px solid blue;
 }
+.card:nth-child(3){
+	border-top: 5px solid purple;
+}
+.card:nth-child(4){
+	border-top: 5px solid red;
+}
+.card:nth-child(5){
+	border-top: 5px solid yellow;
+}
+.card:nth-child(6){
+	border-top: 5px solid pink;
+}
 .card:nth-child(1):hover {
 	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
 				1px 1px 30px rgba(0,255,0,0.5);
 }
 .card:nth-child(2):hover {
-	box-shadow: inset 0px 0px 10px rgba(0,0,255,0.5),
-				1px 1px 30px rgba(0,0,255,0.5);
+	box-shadow: inset 0px 0px 10px rgba(9, 44, 202, 0.5),
+				1px 1px 30px rgba(9, 44, 202, 0.5);
+}
+.card:nth-child(3):hover {
+	box-shadow: inset 0px 0px 10px rgba(125, 9, 202, 0.5),
+				1px 1px 30px rgba(125, 9, 202, 0.5);
+}
+.card:nth-child(4):hover {
+	box-shadow: inset 0px 0px 10px rgba(225, 9, 9, 0.5),
+				1px 1px 30px rgba(225, 9, 9, 0.5);
+}
+.card:nth-child(5):hover {
+	box-shadow: inset 0px 0px 10px rgba(239, 239, 16, 0.5),
+				1px 1px 30px rgba(239, 239, 16, 0.5);
+}
+.card:nth-child(6):hover {
+	box-shadow: inset 0px 0px 10px rgba(211, 74, 182, 0.5),
+				1px 1px 30px rgba(211, 74, 182, 0.5);
 }
 .totalcard .card img {
 	width: 100px;
@@ -454,12 +482,28 @@ a, button {
 	margin-left: 90px;
 	align-self: center;
 }
-.btn-roshan:hover {
+.btn-praveen:hover {
 	background: rgba(0,255,0,0.7);
 	color: #fff;
 }
-.btn-roshan2:hover {
-	background: rgba(0,0,255,0.5);
+.btn-dev:hover {
+	background: rgba(0,0,255,0.7);
+	color: #fff;
+}
+.btn-akshaj:hover {
+	background: rgba(140, 10, 215, 0.7);
+	color: #fff;
+}
+.btn-nimesh:hover {
+	background: rgba(216, 9, 6, 0.7);
+	color: #fff;
+}
+.btn-krishna:hover {
+	background: rgba(215, 212, 13, 0.7);
+	color: #fff;
+}
+.btn-manish:hover {
+	background: rgba(235, 42, 238, 0.7);
 	color: #fff;
 }
 .card-title {
