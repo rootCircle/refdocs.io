@@ -13,21 +13,47 @@ Tell us something that you want to add etc.
 If possible assign yourself a task (inform team first) and start working on it.
 
 
-#0 Remove clutter (like unnecessary sections like jee gate etc)
-    Broken Social links and icons
-#1 Re-branding whole project(changing from logos to all colors slogans name etc) [See bottom]
+
+
+
+
+
+
+
+TODO
+
+#1 Re-branding whole project(changing from logos to all colors slogans name etc, Broken Social links and icons) [See bottom]
+
 #2 Decide topics on which tutorial need to be made
+
 #3 Add docs for links and topics
-#4 Add search functionality (basically it will search through all the html file loaded inside 
+
+#4 [Me] Add search functionality (basically it will search through all the html file loaded inside 
     div with visibility none and then search for text-content inside it and report id and page link of the element)
+
 #5 Add login support (FirebaseDB if possible, but at last, we will now on will go with LocalStorage which store 
     any 'object'(array) in browser and then we can also retrieve them even after reloads in efficient way)
+
 #6 Decide what feature to offer for users who login-ed may be youtube link would be disabled for normal user or with docs.
      Alternatively we can use feedback APIs to store and retrieve feedback from user. 
      Also we can use fun-fact type APIs (Feedbacks are most welcome)
+
 #7 Decide what APIs to use, must be preferably included with some links 
     (Source - https://rapidapi.com/collection/list-of-free-apis)
+
 #8 HTML carousel
+
+#9 Make sure it at-least reaches our exceed project specification
+
+#10 Instead of using iframe in computer science use simple <a> link to optimize website loading
+
+
+
+
+
+
+
+
 
 
 
@@ -56,3 +82,8 @@ WebD Resources
         https://www.favicon.cc/
         https://giphy.com/
         https://www.flaticon.com/
+
+
+DONE
+#0 [Dev Chandna] Remove clutter (like unnecessary sections like jee gate etc)
+    
