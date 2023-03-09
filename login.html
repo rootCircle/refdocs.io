@@ -8,6 +8,7 @@
 </head>
 <body>
 		<div class="form-box">
+			<a href="index.html" class="close" id="kemp4" > &times; </a>
 			<div class="button-box">
 				<div id="btn"></div>
 				<button type="button" class="toggle-btn" id="log" onclick="login()" style="color: #fff;">Log In</button>
@@ -17,25 +18,32 @@
 			<!-- Login Form -->
 			<form id="login" class="input-group" action="index.html">
 				<div class="inp">
-					<img src="images/icon/user.png"><input type="text" id="email" class="input-field" placeholder="Username or Phone Number" style="width: 88%; border:none;" required="required">
+					<img src="images/icon/user.png"><input type="email" id="email" class="input-field" placeholder="Email" style="width: 88%; border:none;" required="required">
 				</div>
 				<div class="inp">
 					<img src="images/icon/password.png"><input type="password" id="password" class="input-field" placeholder="Password" style="width: 88%; border: none;" required="required">
 				</div>
-				<input type="checkbox" class="check-box">Remember Password
-				<button type="submit" class="submit-btn">Log In</button>
+				<button style="margin-top: 1.5rem;" type="submit" class="submit-btn">Log In</button>
 			</form>
 			
 			<!-- Registration Form -->
 			<form id="register" class="input-group">
-				<input type="text" class="input-field" placeholder="Full Name" required="required">
-				<input type="email" class="input-field" placeholder="Email Address" required="required">
-				<input type="password" class="input-field" placeholder="Create Password" name="psame" required="required">
-				<input type="password" class="input-field" placeholder="Confirm Password" name="psame" required="required">
+				<input id="reg-name" type="text" class="input-field" placeholder="Full Name" name="regname" required="required">
+				<input id="reg-email"type="email" class="input-field" placeholder="Email Address" name="regemail" required="required">
+				<input id="reg-pass" type="password" class="input-field" placeholder="Create Password" name="regpswd" required="required">
+				<input id="reg-repass" type="password" class="input-field" placeholder="Confirm Password" name="regrepswd" required="required">
 				<input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">I agree to the Terms & Conditions
 				<button type="submit" id="btnSubmit" class="submit-btn reg-btn">Register</button>
 			</form>
 		</div>
 		<script type="text/javascript" src="script.js"></script>
+
+		 <!-- Firebase App -->
+		 <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-app.js"></script>
+		 <!-- Firebase Auth -->
+		 <script src="https://www.gstatic.com/firebasejs/8.2.10/firebase-auth.js"></script>
+		<script src="login/config.js"></script>
+		<script src="login/login.js"></script>
+		<script src="login/signup.js"></script>
 </body>
 </html>

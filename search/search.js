@@ -3,432 +3,432 @@ function getIndex(){
         {
             "Name" : "HTML",
             "Description" : "hyper text markup language",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "p-tag",
             "Description" : "paragraph tag",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "h1...h6",
             "Description" : "heading tag",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "a-tag",
             "Description" : "Attribute",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "img tag",
             "Description" : "image tag",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "br tag",
             "Description" : "line break",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "pre",
             "Description" : "preformatted text.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "style",
             "Description" : "Setting the style of an HTML element",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "style",
             "Description" : "Setting the style of an HTML element",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "Background Color",
             "Description" : "for giving color to the background",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "text-color",
             "Description" : "for giving color to the text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "fonts",
             "Description" : "The CSS font-family property defines the font to be used for an HTML element",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "text size",
             "Description" : "The CSS font-size property defines the text size for an HTML element:",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "Text Alignment",
             "Description" : "The CSS text-:align property defines the horizontal text alignment for an HTML element",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "b-tag",
             "Description" : "bold text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "strong",
             "Description" : "important text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "i",
             "Description" : "italic text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "em tag",
             "Description" : " Emphasized text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "mark",
             "Description" : "marked text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "small tag",
             "Description" : "smaller text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "del tag",
             "Description" : "deleted text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "ins tag",
             "Description" : "inserted text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "sub",
             "Description" : "subscript text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "sup",
             "Description" : "superscript text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "<blockquote>",
             "Description" : "The HTML <blockquote> element defines a section that is quoted from another source.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "q tag",
             "Description" : "The HTML <q> tag defines a short quotation.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "abbr",
             "Description" : "The HTML <abbr> tag defines an abbreviation or an acronym, like HTML, CSS, Mr., Dr., ASA, ATM.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "address tag",
             "Description" : "for address ",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "city",
             "Description" : "for city",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "bdo",
             "Description" : " Bi-Directional Override",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "comments",
             "Description" : "<!-- This is a comment -->",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "color",
             "Description" : "giving color to our text,bg and etc",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "list tag",
             "Description" : "for giving list to the html",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "or",
             "Description" : "order list",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "ul",
             "Description" : "unorder list",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "div",
             "Description" : "container tag",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "span",
             "Description" : "The <span> element is an inline container used to mark up a part of a text, or a part of a document.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "forms tag",
             "Description" : "The HTML <form> element is used to create an HTML form for user input",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "input",
             "Description" : "for the input",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "lable",
             "Description" : "for the lable",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "button",
             "Description" : "The <input type=submit> defines a button for submitting the form data to a form-handler.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "target",
             "Description" : "The target attribute specifies where to display the response that is received after submitting the form.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "method",
             "Description" : "The method attribute specifies the HTTP method to be used when submitting the form data.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "text area",
             "Description" : "The <textarea> element defines a multi-line input field (a text area)",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "input attributes",
             "Description" : "The input value attribute specifies an initial value for an input field",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "The readonly Attribute",
             "Description" : "The input readonly attribute specifies that an input field is read-only.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "The disabled Attribute",
             "Description" : "The input disabled attribute specifies that an input field should be disabled.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "The autofocus Attribute",
             "Description" : "The input autofocus attribute specifies that an ",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "The height and width Attributes",
             "Description" : "The input height and width attributes specify the height and width of an <input type=image> element.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "css",
             "Description" : " Cascading Style Sheets",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "color",
             "Description" : "for giving color in diffenent ways",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "border",
             "Description" : "define the type of out border",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "margin",
             "Description" : "Margins are used to create space around elements, outside of any defined borders.            ",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "padding",
             "Description" : "Padding is used to create space around an element's content, inside of any defined borders.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "css-height/width",
             "Description" : "for giving height and width to our text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "outline",
             "Description" : "it stand that the how your outline of a perticular text is look like",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "text",
             "Description" : "how is your text is or its types",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "fonts",
             "Description" : "the type of writting ",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "table",
             "Description" : "for making content in tabular form",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "position",
             "Description" : "it said about the position of the text",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "overflow",
             "Description" : "The CSS overflow property controls what happens to content that is too big to fit into an area.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "float",
             "Description" : "The float property is used for positioning and formatting content",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "nav",
             "Description" : "navigation bar",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "dropdown",
             "Description" : "to drop-down function content",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "forms",
             "Description" : "to making form",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "gradient",
             "Description" : "giveing the h-color ",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "script",
             "Description" : "to give js to the content",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "document.write",
             "Description" : "For testing purposes, it is convenient to use document.write()",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "statement",
             "Description" : "In a programming language, these programming instructions are called statements.",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "variabales",
             "Description" : "to declearation of a value,let,const,var",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "Arithmetic Operators",
             "Description" : "for doing some needfull operations in our program",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "Assignment Operators",
             "Description" : "for assign to the value as per their need",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "datatype",
             "Description" : "which type of input take",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "function",
             "Description" : "for doing a functionality which work on calling-by-function in a program",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "object",
             "Description" : "assig the object value",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "string",
             "Description" : "taking the names in double q...()",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "number",
             "Description" : "mathematical operation on some number or with 17l",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "bigint",
             "Description" : "for taking big inputs",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "array",
             "Description" : "An array is a special variable, which can hold more than one value",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "dates",
             "Description" : "for declearing the dates",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "bboolens",
             "Description" : "taking the statement is true of false",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "if else",
             "Description" : "giving under some coditions statements",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "switch",
             "Description" : "giving under some coditions statements",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "loop",
             "Description" : "giving under some coditions statements",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "break",
             "Description" : "giving under some coditions statements",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
         {
             "Name" : "dom",
             "Description" : "Document Object Model",
-            "URL" : "absolute url to the address of the course"
+            "URL" : "../subjects/computer_courses.html"
         },
     ];
 
