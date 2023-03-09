@@ -768,8 +768,8 @@ background-image:url(images/imgs/9.jpg);
     transition: all 0.4s ease;
   }
   .carousel img {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
     border-radius: 18px;
     border: 10px solid #fff;
     object-fit: cover;

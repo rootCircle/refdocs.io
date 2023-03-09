@@ -10,6 +10,8 @@ function sideMenu(side) {
   }
   side++;
 }
+
+
 var pics = document.querySelectorAll(".container .gallery img")
 for(let i = 0 ; i< pics.length ; i++){
     pics[i].addEventListener("click" , (e)=>{
@@ -58,7 +60,7 @@ let imageIndex = 1,
   intervalId;
 const autoSlide = () => {
   
-  intervalId = setInterval(() => slideImage(++imageIndex), 2000);
+  intervalId = setInterval(() => slideImage(++imageIndex), 4000);
 };
 
 // autoSlide();  thoda bekar hora hai isse :)
@@ -66,7 +68,7 @@ const autoSlide = () => {
 const slideImage = () => {
   
   imageIndex = imageIndex === images.length ? 0 : imageIndex < 0 ? images.length - 1 : imageIndex;
-  carousel.style.transform = `translate(-${imageIndex * 100}%)`;
+  carousel.style.transform = `translate(-${imageIndex * 22}%)`;
 };
 const updateClick = (e) =>{
   clearInterval(intervalId);

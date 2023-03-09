@@ -28,8 +28,7 @@ TODO
 
 #3 Add docs for links and topics
 
-#4 [Me] Add search functionality (basically it will search through all the html file loaded inside 
-    div with visibility none and then search for text-content inside it and report id and page link of the element)
+#4 [Nimesh] Add search index for website
 
 #5 Add login support (FirebaseDB if possible, but at last, we will now on will go with LocalStorage which store 
     any 'object'(array) in browser and then we can also retrieve them even after reloads in efficient way)
