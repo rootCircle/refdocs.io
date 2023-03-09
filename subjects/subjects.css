@@ -282,9 +282,9 @@ body {
 	background: linear-gradient(to right, #FA4B37, #DF2771);
 	border-radius: 10px;
 }
-.dcard2:hover .fpart2 img {
+/*.dcard2:hover .fpart2 img {
 	display: none;
-}
+}*/
 .dcard2 .fpart2 { 
 	width: inherit;
 	height: 180px;

@@ -1,0 +1,149 @@
+body{
+    background-image:"subjects/IMAGES/imgs copy/bg-aboutus.jpg";
+}
+#about_section, #portfolio_section, #team_section, #services_section, #contactus_section {
+	font-family: 'Open Sans', sans-serif;
+	color: #2E3D49;
+	position: relative;
+}
+.diffSection {
+	width: 100%;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+}
+.diffSection .content {
+	margin: 10px;
+	text-align: center;
+	padding: 10px 100px;
+	font-size: 1.1em;
+}
+.totalcard {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.totalcard .card {
+	margin: 50px;
+	width: 300px;
+	border-radius: 10px;
+	background: #fff;
+}
+.totalcard .card{
+	box-shadow: inset 0 0 10px rgba(0,0,0,0.4),
+					0 0 10px rgba(0,0,0,0.3);
+}
+.card:nth-child(1){
+	border-top: 5px solid green;
+}
+.card:nth-child(2){
+	border-top: 5px solid blue;
+}
+.card:nth-child(3){
+	border-top: 5px solid purple;
+}
+.card:nth-child(4){
+	border-top: 5px solid red;
+}
+.card:nth-child(5){
+	border-top: 5px solid yellow;
+}
+.card:nth-child(6){
+	border-top: 5px solid pink;
+}
+.card:nth-child(1):hover {
+	box-shadow: inset 0px 0px 10px rgba(0,255,0,0.5),
+				1px 1px 30px rgba(0,255,0,0.5);
+}
+.card:nth-child(2):hover {
+	box-shadow: inset 0px 0px 10px rgba(9, 44, 202, 0.5),
+				1px 1px 30px rgba(9, 44, 202, 0.5);
+}
+.card:nth-child(3):hover {
+	box-shadow: inset 0px 0px 10px rgba(125, 9, 202, 0.5),
+				1px 1px 30px rgba(125, 9, 202, 0.5);
+}
+.card:nth-child(4):hover {
+	box-shadow: inset 0px 0px 10px rgba(225, 9, 9, 0.5),
+				1px 1px 30px rgba(225, 9, 9, 0.5);
+}
+.card:nth-child(5):hover {
+	box-shadow: inset 0px 0px 10px rgba(239, 239, 16, 0.5),
+				1px 1px 30px rgba(239, 239, 16, 0.5);
+}
+.card:nth-child(6):hover {
+	box-shadow: inset 0px 0px 10px rgba(211, 74, 182, 0.5),
+				1px 1px 30px rgba(211, 74, 182, 0.5);
+}
+.totalcard .card img {
+	width: 100px;
+	height: 100px;
+	margin-top: 5px;
+	cursor: pointer;
+	border-radius: 50px;
+	transition-duration: .8s;
+}
+.totalcard .card img:hover {
+	transform: scale(3.5);
+	border-radius: 0;
+	box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+#detail p{
+	font-size: 15px;
+	line-height: 25px;
+	font-variant: small-caps;
+	text-align: center;
+	margin: 25px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+#detail button {
+	outline: none;
+	border-radius: 10px;
+	border-style: none;
+	border: 1px solid black;
+	padding: 9px 25px;
+	cursor: pointer;
+	transition-duration: .4s;
+}
+#detail a {
+	bottom: 80px;
+	text-decoration: none;
+	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-left: 3px;
+	align-self: center;
+}
+.btn-praveen:hover {
+	background: rgba(0,255,0,0.7);
+	color: #fff;
+}
+.btn-dev:hover {
+	background: rgba(0,0,255,0.7);
+	color: #fff;
+}
+.btn-akshaj:hover {
+	background: rgba(140, 10, 215, 0.7);
+	color: #fff;
+}
+.btn-nimesh:hover {
+	background: rgba(216, 9, 6, 0.7);
+	color: #fff;
+}
+.btn-krishna:hover {
+	background: rgba(215, 212, 13, 0.7);
+	color: #fff;
+}
+.btn-manish:hover {
+	background: rgba(235, 42, 238, 0.7);
+	color: #fff;
+}
+.card-title {
+	font-size: 17px;
+	color: #343A40;
+	padding: 20px;
+	font-weight: 700;
+}

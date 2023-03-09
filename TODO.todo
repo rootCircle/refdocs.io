@@ -37,20 +37,11 @@ TODO
      Alternatively we can use feedback APIs to store and retrieve feedback from user. 
      Also we can use fun-fact type APIs (Feedbacks are most welcome)
 
-#7 Decide what APIs to use, must be preferably included with some links 
-    (Source - https://rapidapi.com/collection/list-of-free-apis)
-
 #8 HTML carousel
 
 #9 Make sure it at-least reaches our exceed project specification
 
 #10 Instead of using iframe in computer science use simple <a> link to optimize website loading
-
-
-
-
-
-
 
 
 
@@ -86,3 +77,5 @@ WebD Resources
 DONE
 #0 [Dev Chandna] Remove clutter (like unnecessary sections like jee gate etc)
     
+#7 [rootCircle] Decide what APIs to use, must be preferably included with some links 
+    (Source - https://rapidapi.com/collection/list-of-free-apis)

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ChatGPT Corner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="chatgpt.css">
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link" href="../index.html">Homepage</a>
+            <a class="nav-item nav-link active" href="#" disabled>Chatgpt Corner <span class="sr-only">(current)</span></a>
+        </div>
+    </nav>
+
+    <h1>refdocs.io + CHATGPT : When you want to learn more</h1>
+    <form action="#" id="chat-form">
+        <input type="text" id="prompt-input">
+        <button onclick="handleRequest()">Send Request</button>
+    </form>
+
+    <div id="response">
+        <pre>
+        <code class="response-text"></code>
+    </pre>
+    </div>
+
+
+    <script>
+        async function handleRequest() {
+            var resp = document.querySelector(".response-text");
+            resp.textContent = "Loading....Please be patient";
+            const prompt = document.getElementById('prompt-input').value;
+            const response = await generateResponse(prompt);
+            
+            resp.textContent=response;
+        }
+    </script>
+
+    <script src="chatgpt.js"></script>
+</body>
+</html>
