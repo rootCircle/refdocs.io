@@ -319,8 +319,9 @@ body {
 .click-me a {
 	color: #DF2771;
 	text-decoration: none;
-	transition-duration: .5s;
-	padding: 10px;
+	transition-duration: .4s;
+	padding: 20px;
+	margin: 40px;
 }
 .click-me a:hover {
 	background: #DF2771;
