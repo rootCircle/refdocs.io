@@ -13,7 +13,7 @@ function getIndex(){
         {
             "Name" : "h1...h6",
             "Description" : "heading tag",
-            "URL" : "../subjects/computer_courses.html"
+            "URL" : "../subjects/computer_courses.html#html"
         },
         {
             "Name" : "a-tag",
@@ -358,7 +358,7 @@ function getIndex(){
         {
             "Name" : "Assignment Operators",
             "Description" : "for assign to the value as per their need",
-            "URL" : "../subjects/computer_courses.html"
+            "URL" : "../subjects/computer_courses.html#js"
         },
         {
             "Name" : "datatype",
@@ -435,7 +435,8 @@ function getIndex(){
     return data;
 }
 
-function search(){
+function search(event){
+    event.preventDefault();
     var data = getIndex();
     
     let searchQuery = document.querySelector(".search-input").value;

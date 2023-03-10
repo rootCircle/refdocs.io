@@ -8,9 +8,9 @@
 // 	document.getElementById("myBar").style.width = scrolled + "%"; 
 // }
 
-$('.close').on('click', function () {  
-  $('.form-box').hide();  
- });
+// $('.close').on('click', function () {  
+//   $('.form-box').hide();  
+//  });
 
 function scrollAppear() {
   var introText = document.querySelector('.side-text');

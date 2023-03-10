@@ -6,16 +6,113 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>p tag</title>
+    <style>
+      a:hover{
+        background-color: green;
+        color: white;
+      }
+
+      .col-md-2{
+        /* background-color: rgb(160, 158, 158); */
+        background-image: linear-gradient(to top, rgb(44, 43, 43) , rgb(3, 3, 3));
+
+      }
+      .site{
+           background-image: linear-gradient(to right, rgb(61, 8, 249) , rgb(250, 82, 3));
+           padding-left: 40px;
+           padding-top: 10px;
+           padding-bottom: 10px;
+      }
+      hr{
+        border: 2px solid green;
+      }
+      /*FOOTER*/
+footer {
+	color: #E5E8EF;
+	background: #000D;
+	padding: 50px 0; 
+}
+footer .footer-container {
+	max-width: 1300px;
+	margin: auto;
+	padding: 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+}
+footer .social-media img{
+	width: 22px;
+}
+footer .logo {
+	width: 180px;
+	color: #fff;
+}
+footer .social-media a{
+	margin-right: 10px;
+	font-size: 22px;
+	text-decoration: none;
+}
+footer .right-col h1{
+	font-size: 26px;
+}
+footer .border{
+	width: 100px;
+	height: 4px;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	margin: 2px;
+}
+footer .newsletter-form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+footer input::placeholder {
+  color: white !important;
+}
+footer .txtb {
+	flex: 1;
+	padding: 18px 40px;
+	font-size: 16px;
+	background: #343A40;
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	min-width: 260px;
+	margin-top: 20px;
+	color: white;
+}
+footer .btn {
+	margin-top: 20px;
+	padding: 18px 40px;
+	font-size: 16px;
+	color: #f1f1f1;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	border: none;
+	font-weight: 700;
+	outline: none;
+	border-radius: 5px;
+	margin-left: 20px;
+	cursor: pointer;
+	transition: opacity .3s linear;	
+}
+footer .btn:hover {
+	opacity: .7;
+}
+
+    </style>
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-info">
       <div class="row">
         <!-- Sidebar -->
-        <div class="col-md-2 bg-dark text-light pt-3">
-          <h5>Site Navigation</h5>
+        <div class="col-md-2 text-light pt-3">
+          <h5 class="site">Site Navigation</h5>
           <hr />
           <ul class="list-unstyled">
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="">Home</a></li>
             <li><a href="#">About Us</a></li>
             <li><a href="#">Contact Us</a></li>
           </ul>
@@ -56,5 +153,35 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="../images//icon/logo - Copy.png" style="width: 200px;">
+          <div class="logo"></div>
+          <div class="social-media">
+            <a href="#"><img src="../images//icon\fb.png"></a>
+            <a href="#"><img src="../images//icon\insta.png"></a>
+            <a href="#"><img src="../images//icon\tt.png"></a>
+            <a href="#"><img src="../images//icon\ytube.png"></a>
+            <a href="#"><img src="../images//icon\linkedin.png"></a>
+          </div><br><br>
+          <p class="rights-text">Copyright © 2023 Created By Team KAMP IV , <br>
+            All Rights Reserved.</p>
+          <br><p><img src="../images//icon/location.png"> Indian Institute Of Information
+            Technology , Lucknow <br>Ahmamau,Lucknow - 226002</p><br>
+          <p><img src="../images//icon/phone.png"> +91-1234-567-890<br><img
+              src="../images//icon/mail.png">&nbsp; KAMPIV@gmail.com</p>
+        </div>
+        <div class="right-col">
+          <h1 style="color: #fff">Our Newsletter</h1>
+          <div class="border"></div><br>
+          <p>Enter Your Email to get our News and updates.</p>
+          <form class="newsletter-form">
+            <input class="txtb" type="email" placeholder="Enter Your Email">
+            <input class="btn" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

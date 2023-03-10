@@ -12,7 +12,7 @@ function sideMenu(side) {
 }
 
 
-var pics = document.querySelectorAll(".container .gallery img")
+var pics = document.querySelectorAll(".gallery img")
 for(let i = 0 ; i< pics.length ; i++){
     pics[i].addEventListener("click" , (e)=>{
 

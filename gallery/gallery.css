@@ -255,7 +255,7 @@ a, button {
 	font-size: 50px;
 	text-align: center;
 	color: #fff;
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("../images/extra/b1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: cursive;
@@ -678,7 +678,7 @@ footer .btn:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(71, 69, 69, 0.541);
+/*    background-color: rgba(71, 69, 69, 0.541);*/
     z-index: 10;
 }
 
@@ -687,7 +687,7 @@ footer .btn:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color:rgba(0, 0, 0, 0.7);
+/*    background-color:rgba(0, 0, 0, 0.7);*/
     height: 70%;
     width: 50%;
     padding: 20px;
@@ -715,7 +715,7 @@ footer .btn:hover {
 .gallery
 {
 	opacity: 66;
-background-image:url(images/imgs/9.jpg);
+background-image:url(../images/imgs/9.jpg);
 }
 .wrapper {
     display: flex;
