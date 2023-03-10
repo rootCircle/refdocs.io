@@ -338,97 +338,97 @@ function getIndex(){
         {
             "Name" : "document.write",
             "Description" : "For testing purposes, it is convenient to use document.write()",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "statement",
             "Description" : "In a programming language, these programming instructions are called statements.",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "variables",
             "Description" : "to declaration of a value,let,const,var",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "Arithmetic Operators",
             "Description" : "for doing some needful operations in our program",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "Assignment Operators",
             "Description" : "for assign to the value as per their need",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "datatype",
             "Description" : "which type of input take",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "function",
             "Description" : "for doing a functionality which work on calling-by-function in a program",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "object",
             "Description" : "assign the object value",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "string",
             "Description" : "taking the names in double q...()",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "number",
             "Description" : "mathematical operation on some number or with 17l",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "bigint",
             "Description" : "for taking big inputs",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "array",
             "Description" : "An array is a special variable, which can hold more than one value",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "dates",
             "Description" : "for declaring the dates",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "booleans",
             "Description" : "taking the statement is true of false",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "if else",
             "Description" : "giving under some conditions statements",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "switch",
             "Description" : "giving under some conditions statements",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "loop",
             "Description" : "giving under some conditions statements",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "break",
             "Description" : "giving under some conditions statements",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
         {
             "Name" : "dom",
             "Description" : "Document Object Model",
-            "URL" : "../subjects/computer_courses.html#js"
+            "URL" : "../subjects/computer_courses.html#javascript"
         },
     ];
 
