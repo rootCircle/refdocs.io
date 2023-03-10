@@ -1,0 +1,81 @@
+If not started yet clone the repo 
+Open cmd/terminal in your PC and type 
+
+git clone https://github.com/rootCircle/refdocs.git 
+cd refdocs
+code .
+
+
+
+These are the tasks we plan to commit and complete before deadline
+Please go through these and give your valuable feedback
+Tell us something that you want to add etc.
+If possible assign yourself a task (inform team first) and start working on it.
+
+
+
+
+
+
+
+
+
+TODO
+
+#1 Re-branding whole project(changing from logos to all colors slogans name etc, Broken Social links and icons) [See bottom]
+
+#2 Decide topics on which tutorial need to be made
+
+#3 Add docs for links and topics
+
+#4 [Nimesh] Add search index for website
+
+#5 Add login support (FirebaseDB if possible, but at last, we will now on will go with LocalStorage which store 
+    any 'object'(array) in browser and then we can also retrieve them even after reloads in efficient way)
+
+#6 Decide what feature to offer for users who login-ed may be youtube link would be disabled for normal user or with docs.
+     Alternatively we can use feedback APIs to store and retrieve feedback from user. 
+     Also we can use fun-fact type APIs (Feedbacks are most welcome)
+
+#8 HTML carousel
+
+#9 Make sure it at-least reaches our exceed project specification
+
+#10 Instead of using iframe in computer science use simple <a> link to optimize website loading
+
+
+
+
+
+Resources for *1 can be found here
+WebD Resources
+    Docs (for inspirations)
+        https://www.w3schools.com/
+        https://devdocs.io/html/
+        https://getbootstrap.com/docs/5.3/getting-started/introduction/
+        https://developer.mozilla.org/en-US/
+        https://getbootstrap.com/docs/4.6/components/buttons/
+    Fonts
+        https://fonts.google.com/
+        https://www.cssfontstack.com/
+        https://fontawesome.com/icons
+    Designing
+        https://ui-patterns.com/
+        https://www.awwwards.com/
+        https://dribbble.com/
+        https://sneakpeekit.com/
+        https://balsamiq.cloud/
+        https://bootsnipp.com/
+    Icons / Images
+        https://colorhunt.co/
+        https://emojipedia.org/broccoli/
+        https://www.favicon.cc/
+        https://giphy.com/
+        https://www.flaticon.com/
+
+
+DONE
+#0 [Dev Chandna] Remove clutter (like unnecessary sections like jee gate etc)
+    
+#7 [rootCircle] Decide what APIs to use, must be preferably included with some links 
+    (Source - https://rapidapi.com/collection/list-of-free-apis)

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Search Result</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="search.css">
+</head>
+  <body>
+
+
+    <nav class="navbar navbar-expand navbar-dark bg-primary">
+        <div class="nav navbar-nav">
+            <a class="nav-item nav-link" href="../index.html">Homepage</a>
+            <a class="nav-item nav-link active" href="#" disabled>Search <span class="sr-only">(current)</span></a>
+        </div>
+    </nav>
+
+    <div class="search-prompt">
+        <h1 class="search-heading">Search Courses</h1>
+
+        <form class="search-form form my-2 my-lg-0" action="#" method="post">
+            <div class="row">
+                <div class="col-sm-1">
+                    
+                </div>
+                <div class="col-sm-9">
+                    <input class="search-input form-control mr-sm-2 rounded-pill" type="text" placeholder="Search">
+                </div>
+                <div class="col-sm-1">
+                    <button class="btn btn-primary my-2 my-sm-0 rounded-pill" onclick="return search(event)">Search</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="search-results"></div>
+    <footer>
+        <div class="footer-container">
+            <div class="left-col">
+                <img src="../images/icon/logo - Copy.png" style="width:
+                    200px;">
+                <div class="logo"></div>
+                <div class="social-media">
+                    <a href="#"><img src="../images/icon\fb.png"></a>
+                    <a href="#"><img src="../images/icon\insta.png"></a>
+                    <a href="#"><img src="../images/icon\tt.png"></a>
+                    <a href="#"><img src="../images/icon\ytube.png"></a>
+                    <a href="#"><img src="../images/icon\linkedin.png"></a>
+                </div><br><br>
+                <p class="rights-text">Copyright © 2023 Created By Team KAMP
+                    IV , <br>
+                    All Rights Reserved.</p>
+                <br><p><img src="../images/icon/location.png"> Indian
+                    Institute Of Information
+                    Technology , Lucknow <br>Ahmamau,Lucknow - 226002</p><br>
+                <p><img src="../images/icon/phone.png"> +91-1234-567-890<br><img
+                        src="../images/icon/mail.png">&nbsp;
+                    KAMPIV@gmail.com</p>
+            </div>
+            <div class="right-col">
+                <h1 style="color: #fff">Our Newsletter</h1>
+                <div class="foot-border"></div><br>
+                <p>Enter Your Email to get our News and updates.</p>
+                <form class="newsletter-form">
+                    <input class="txtb" type="email" placeholder="Enter Your Email">
+                    <input class="btn" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <script src="search.js"></script>
+</body>
+</html>
