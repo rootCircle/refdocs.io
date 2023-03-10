@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>p tag</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        ul{
+          list-style: none;
+        }
+        .list{
+          color: black;
+        }
+        .list .anchor{
+          width: 100%;
+          color : lightgray;
+          text-decoration: none;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+        .list .anchor:hover{
+          background-color: green;
+          color: white;
+        }
+        .col-md-2{
+        /* background-color: rgb(160, 158, 158); */
+          background-image: linear-gradient(to top, rgb(44, 43, 43) , rgb(3, 3, 3));
+
+        }
+        .site{
+              background-image: linear-gradient(to right, rgb(61, 8, 249) , rgb(250, 82, 3));
+              padding-left: 40px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+        }
+        hr{
+          border: 2px solid green;
+        }
+        /*FOOTER*/
+        footer {
+          color: #E5E8EF;
+          background: #000D;
+          padding: 50px 0; 
+        }
+        footer .footer-container {
+          max-width: 1300px;
+          margin: auto;
+          padding: 0 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap-reverse;
+        }
+        footer .social-media img{
+          width: 22px;
+        }
+        footer .logo {
+          width: 180px;
+          color: #fff;
+        }
+        footer .social-media a{
+          margin-right: 10px;
+          font-size: 22px;
+          text-decoration: none;
+        }
+        footer .right-col h1{
+          font-size: 26px;
+        }
+        footer .border{
+          width: 100px;
+          height: 4px;
+          background: linear-gradient(to right, #FA4B37, #DF2771);
+          margin: 2px;
+        }
+        footer .newsletter-form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        footer input::placeholder {
+          color: white !important;
+        }
+        footer .txtb {
+          flex: 1;
+          padding: 18px 40px;
+          font-size: 16px;
+          background: #343A40;
+          border: none;
+          font-weight: 700;
+          outline: none;
+          border-radius: 5px;
+          min-width: 260px;
+          margin-top: 20px;
+          color: white;
+        }
+        footer .btn {
+          margin-top: 20px;
+          padding: 18px 40px;
+          font-size: 16px;
+          color: #f1f1f1;
+          background: linear-gradient(to right, #FA4B37, #DF2771);
+          border: none;
+          font-weight: 700;
+          outline: none;
+          border-radius: 5px;
+          margin-left: 20px;
+          cursor: pointer;
+          transition: opacity .3s linear;	
+        }
+        footer .btn:hover {
+          opacity: .7;
+        }
+        .container-fluid{
+          margin-top: 100px;
+        }
+        .nav{
+          position: absolute;
+          height: 100px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="nav">
+        <div class="logo"><img src="../images//icon/logo.png" alt="logo"></div>
+        <ul>
+          <li><a  href="../index.html">Home</a></li>
+          <li><a class="active" href="d1.html">Doc</a></li>
+        </ul>
+        <!-- <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="../images//icon/search.png" alt="search" onclick=slide()></div> -->
+        <a class="get-started" href="../login.html">Get Started</a>
+        <img src="../images//icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+      </nav>
+    </div>
+    <div class="container-fluid bg-info">
+      <div class="row">
+        <!-- Sidebar -->
+        <div class="col-md-2 text-light pt-3">
+          <h5 class="site">Site Navigation</h5>
+          <hr />
+          <ul class="list">
+            <li><a href="d1.html" class="anchor">Introduction</a></li>
+            <li><a href="d2.html" class="anchor">Basics Tag</a></li>
+            <li><a href="d3.html" class="anchor">Formatting</a></li>
+            <li><a href="d4.html" class="anchor">tables</a></li>
+            <li><a href="d5.html" class="anchor">list</a></li>
+            <li><a href="d6.html" class="anchor">forms</a></li>
+            <li><a href="d7.html" class="anchor">iframe</a></li>
+        </div>
+
+        <!-- Main Content -->
+        <div class="col-md-10 mt-5 mx-auto">
+          <div class="card mb-5">
+            <div class="card-body">
+              <h1 class=" text-primary">tables</h1>
+              <p class="card-text">
+                <span class="text-dark">Explanation here</span><br><br>
+                <code>&lt;td&gt;</code>--&gt;Everything between <code>&lt;td&gt;</code> and  <code>&lt;/td&gt;</code> are the content of the table
+                cell.<br>
+                <code>&lt;tr&gt;</code>--&gt;Each table row starts with a <code>&lt;tr&gt;</code> and ends with a <code>&lt;/tr&gt;</code> tag.<br>
+                <code>&lt;th&gt;</code>--&gt;Sometimes you want your cells to be table header cells. In those
+                cases use the  <code>&lt;th&gt;</code> tag instead of the  <code>&lt;td&gt;</code> tag:<br>
+              </p>
+              <p class="card-text ">
+                <p>Example<br><code>
+                    <code>&lt;table&gt;</code><br>
+                        <code>&lt;tr&gt;</code><br>
+                        <code>&lt;th&gt;</code>Person 1<code>&lt;/th&gt;</code><br>
+                        <code>&lt;th&gt;</code>Person 2<code>&lt;/th&gt;</code><br>
+                        <code>&lt;th&gt;</code>Person 3<code>&lt;/th&gt;</code><br>
+                        <code>&lt;/tr&gt;</code><br>
+                        <code>&lt;tr&gt;</code><br>
+                        <code>&lt;td&gt;</code>Emil <code>&lt;/td&gt;</code><br>
+                        <code>&lt;td&gt;</code>Tobias <code>&lt;/td&gt;</code><br>
+                        <code>&lt;td&gt;</code>Linus <code>&lt;/td&gt;</code><br>
+                        <code>&lt;/tr&gt;</code><br>
+                        <code>&lt;tr&gt;</code><br>
+                        <code>&lt;td&gt;</code>16 <code>&lt;/td&gt;</code><br>
+                        <code>&lt;td&gt;</code>14 <code>&lt;/td&gt;</code><br>
+                        <code>&lt;td&gt;</code>10 <code>&lt;/td&gt;</code><br>
+                        <code>&lt;/tr&gt;</code><br>
+                        <code>&lt;/table&gt;</code><br>
+                </code>
+                </p>
+              </p><br>
+              <!-- link youtube vedio in 'url' -->
+              <p class="card-text">
+                <!-- <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">Click
+                Here to know more
+                </iframe>  -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="left-col">
+          <img src="../images//icon/logo - Copy.png" style="width: 200px;">
+          <div class="logo"></div>
+          <div class="social-media">
+            <a href="#"><img src="../images//icon\fb.png"></a>
+            <a href="#"><img src="../images//icon\insta.png"></a>
+            <a href="#"><img src="../images//icon\tt.png"></a>
+            <a href="#"><img src="../images//icon\ytube.png"></a>
+            <a href="#"><img src="../images//icon\linkedin.png"></a>
+          </div><br><br>
+          <p class="rights-text">Copyright © 2023 Created By Team KAMP IV , <br>
+            All Rights Reserved.</p>
+          <br><p><img src="../images//icon/location.png"> Indian Institute Of Information
+            Technology , Lucknow <br>Ahmamau,Lucknow - 226002</p><br>
+          <p><img src="../images//icon/phone.png"> +91-1234-567-890<br><img
+              src="../images//icon/mail.png">&nbsp; KAMPIV@gmail.com</p>
+        </div>
+        <div class="right-col">
+          <h1 style="color: #fff">Our Newsletter</h1>
+          <div class="foot-border"></div><br>
+          <p>Enter Your Email to get our News and updates.</p>
+          <form class="newsletter-form">
+            <input class="txtb" type="email" placeholder="Enter Your Email">
+            <input class="btn" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

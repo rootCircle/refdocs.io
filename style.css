@@ -902,6 +902,14 @@ footer .border{
 	background: linear-gradient(to right, #FA4B37, #DF2771);
 	margin: 2px;
 }
+
+footer .foot-border{
+	width: 100px;
+	height: 4px;
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	margin: 2px;
+}
+
 footer .newsletter-form {
 	display: flex;
 	justify-content: center;
