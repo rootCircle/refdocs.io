@@ -13,6 +13,7 @@ html {
 body {
 	background: #FFF;
 	font-family: 'Open Sans', sans-serif;
+	line-height: 2.5rem;
 	background-color: #3751fa;
 }
 
@@ -29,116 +30,127 @@ body {
 }
 
 /*NAVIGATION BAR*/
-.nav
-{
-	width: 100%;
-	background-color: #fff;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 2%;
+nav {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	top: 0;
 	position: fixed;
-	top: 0px;
-	z-index: 10;
-	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	display: flex;
+	width: 100%;
+	z-index: 1000;
+	background: #fff;
+	justify-content: space-around;
+	transition: 1.5s;
+	align-items: center;
+}
+nav ul {
+	display: flex;
+	align-items: center;
+}
+nav ul li {
+	list-style: none;
+	margin: 5px 10px;
+}
+nav ul li a {
+	padding: 2px 10px;
+	color: #2e2e2e;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: none;
+}
+nav ul li a:hover {
+	color: #fff;
+	border-radius: 5px;
+	background: #DF2771;
+}
+.active {
+	color: #fff;
+	border-radius: 5px;
+	background: #DF2771;
+}
+.srch {
+	padding: 10px 10px;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	/* background: #0066ff; */
+}
+.srch img {
+	width: 25px;
+	cursor: pointer;
+}
+.srch .search {
+	/* padding: 2px 10px; */
+	outline: none;
+	border: none;
+	background: transparent;
 }
 
-.nav li, a, button
-{
+.btn55 {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn55:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn55:active {
+    color: #000
+}
+
+.btn55:active:after {
+    background: transparent;
+}
+
+.btn55:hover:before {
+    opacity: 1;
+}
+
+.btn55:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+a, button {
 	float: left;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 500;
-	font-size: 13px;
+	font-size: 15px;
 	color: #2E3D49;
 	display: block;
 	text-decoration: none;
 	text-align: center;
 }
 
-.nav ul li img {
-	width: 20px;
-	margin-right: 10px;
-	transform: translateY(5px);
-	padding-top: 5px;
-}
-
-.nav ul li 
-{
-	list-style: none;
-	display: inline-block;
-	padding: 0px 20px 8px ;
-    border:2px solid black;
-    background-color: #FA4B37;
-    margin:10px 0px 2px 15px;
-}
-
-.nav ul li a
-{
-	transition: all 0.3s ease 0s;
-}
-.nav ul li:hover
-{
-	background-color: #d0fa37;
-}
-
-.nav ul li a:hover
-{
-	color: #3751fa;
-}
-
-.nav button
-{
-	padding: 9px 25px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
-	color: #fff;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-	outline: none;
-	transition: all 0.3s ease 0s;
-}
-#srchbtn {
-	padding: 9px 20px;
-}
-#srchbtn img {
-	width: 15px;
-	filter: brightness(100);
-}
-.nav button:hover
-{
-	opacity: .9;
-}
-.nav .search
-{
-	float: right;
-}
-.nav .search .srch
-{
-	font-size: 13px;
-	width: 300px;
-	border: none;
-	outline: none;
-	border-bottom: 2px solid #FA4B37;
-	padding: 9px;
-}
-.nav .search button
-{
-	margin-right: 5px;
-	float: right;
-	margin-left: 10px;
-}
-.nav .switch-tab {
-	cursor: pointer;
-	visibility: hidden;
-}
-.nav .switch-tab img {
-	width: 20px;
-}
-.nav .check-box {
-	cursor: pointer;
-	visibility: hidden;
-}
 @keyframes glowing {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
@@ -319,22 +331,22 @@ footer .btn:hover {
 }
 
 @media screen and (max-width: 1000px) {
-	.nav ul, .nav .search {
+	nav ul, nav .search {
 		display: none;
 	}
-	.nav #learned-logo {
+	nav #learned-logo {
 		transition: 1s ease;
 		margin-left: 40%;
 		transform: scale(1.5);
 	}
-	.nav ul li{
+	nav ul li{
 		width: 100%;
 		margin-bottom: 5px;
 	}
-	.nav .switch-tab {
+	nav .switch-tab {
 		visibility: visible;
 	}
-	.nav .check-box {
+	nav .check-box {
 		visibility: visible;
 	}
 	.search {
@@ -348,8 +360,8 @@ footer .btn:hover {
 display:inline-block;
 font-size: 70px;
 color: white;
-margin: 70px 0px 20px 35% ;
-
+margin: 70px 0px 40px 35% ;
+padding-top: 5rem;
 background-color:#3751fa;
 justify-content: center;
 
