@@ -11,7 +11,7 @@ loginForm.addEventListener('submit', (e) => {
       // Signed in
       const user = userCredential.user;
       //Redirect to dashboard page after successful login
-      window.location.href = "ai_ml/ai_ml.html";
+      window.location.href = "dashboard/dashboard.html";
     })
     .catch((error) => {
       const errorCode = error.code;
