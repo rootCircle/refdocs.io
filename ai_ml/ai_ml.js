@@ -8,9 +8,7 @@ function sideMenu(side) {
     }
     side++;
   }
-  $('.close').on('click', function () { 
-    $('.form-box').hide(); 
-   }); 
+
    function searchdisplay() {
     document.getElementById('searchpanel').style.display="block";
   }

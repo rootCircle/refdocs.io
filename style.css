@@ -714,7 +714,7 @@ form textarea {
 .rev-container .rev-card {
 	/*overflow: hidden;*/
 	width: 550px;
-	height: 240px;
+	height: 260px;
 	margin-bottom: 40px;
 	background: #fff;
 	display: flex;
