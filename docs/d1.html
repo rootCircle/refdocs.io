@@ -6,115 +6,149 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>p tag</title>
+    <link rel="stylesheet" href="../style.css">
     <style>
-      a:hover{
-        background-color: green;
-        color: white;
-      }
-
-      .col-md-2{
+        
+        .list{
+          color: black;
+        }
+        .list .anchor{
+          width: 100%;
+          color : lightgray;
+          text-decoration: none;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+        .list .anchor:hover{
+          background-color: green;
+          color: white;
+        }
+        .col-md-2{
         /* background-color: rgb(160, 158, 158); */
-        background-image: linear-gradient(to top, rgb(44, 43, 43) , rgb(3, 3, 3));
+          background-image: linear-gradient(to top, rgb(44, 43, 43) , rgb(3, 3, 3));
 
-      }
-      .site{
-           background-image: linear-gradient(to right, rgb(61, 8, 249) , rgb(250, 82, 3));
-           padding-left: 40px;
-           padding-top: 10px;
-           padding-bottom: 10px;
-      }
-      hr{
-        border: 2px solid green;
-      }
-      /*FOOTER*/
-footer {
-	color: #E5E8EF;
-	background: #000D;
-	padding: 50px 0; 
-}
-footer .footer-container {
-	max-width: 1300px;
-	margin: auto;
-	padding: 0 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: wrap-reverse;
-}
-footer .social-media img{
-	width: 22px;
-}
-footer .logo {
-	width: 180px;
-	color: #fff;
-}
-footer .social-media a{
-	margin-right: 10px;
-	font-size: 22px;
-	text-decoration: none;
-}
-footer .right-col h1{
-	font-size: 26px;
-}
-footer .border{
-	width: 100px;
-	height: 4px;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
-	margin: 2px;
-}
-footer .newsletter-form {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
-footer input::placeholder {
-  color: white !important;
-}
-footer .txtb {
-	flex: 1;
-	padding: 18px 40px;
-	font-size: 16px;
-	background: #343A40;
-	border: none;
-	font-weight: 700;
-	outline: none;
-	border-radius: 5px;
-	min-width: 260px;
-	margin-top: 20px;
-	color: white;
-}
-footer .btn {
-	margin-top: 20px;
-	padding: 18px 40px;
-	font-size: 16px;
-	color: #f1f1f1;
-	background: linear-gradient(to right, #FA4B37, #DF2771);
-	border: none;
-	font-weight: 700;
-	outline: none;
-	border-radius: 5px;
-	margin-left: 20px;
-	cursor: pointer;
-	transition: opacity .3s linear;	
-}
-footer .btn:hover {
-	opacity: .7;
-}
+        }
+        .site{
+              background-image: linear-gradient(to right, rgb(61, 8, 249) , rgb(250, 82, 3));
+              padding-left: 40px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+        }
+        hr{
+          border: 2px solid green;
+        }
+        /*FOOTER*/
+        footer {
+          color: #E5E8EF;
+          background: #000D;
+          padding: 50px 0; 
+        }
+        footer .footer-container {
+          max-width: 1300px;
+          margin: auto;
+          padding: 0 20px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-wrap: wrap-reverse;
+        }
+        footer .social-media img{
+          width: 22px;
+        }
+        footer .logo {
+          width: 180px;
+          color: #fff;
+        }
+        footer .social-media a{
+          margin-right: 10px;
+          font-size: 22px;
+          text-decoration: none;
+        }
+        footer .right-col h1{
+          font-size: 26px;
+        }
+        footer .border{
+          width: 100px;
+          height: 4px;
+          background: linear-gradient(to right, #FA4B37, #DF2771);
+          margin: 2px;
+        }
+        footer .newsletter-form {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        footer input::placeholder {
+          color: white !important;
+        }
+        footer .txtb {
+          flex: 1;
+          padding: 18px 40px;
+          font-size: 16px;
+          background: #343A40;
+          border: none;
+          font-weight: 700;
+          outline: none;
+          border-radius: 5px;
+          min-width: 260px;
+          margin-top: 20px;
+          color: white;
+        }
+        footer .btn {
+          margin-top: 20px;
+          padding: 18px 40px;
+          font-size: 16px;
+          color: #f1f1f1;
+          background: linear-gradient(to right, #FA4B37, #DF2771);
+          border: none;
+          font-weight: 700;
+          outline: none;
+          border-radius: 5px;
+          margin-left: 20px;
+          cursor: pointer;
+          transition: opacity .3s linear;	
+        }
+        footer .btn:hover {
+          opacity: .7;
+        }
+        .container-fluid{
+          margin-top: 100px;
+        }
+        .nav{
+          position: absolute;
+          height: 100px;
+        }
 
     </style>
   </head>
   <body>
+    <div class="container-fluid">
+      <nav class="nav">
+        <div class="logo"><img src="../images//icon/logo.png" alt="logo"></div>
+        <ul>
+          <li><a  href="../index.html">Home</a></li>
+          <li><a class="active" href="d1.html">Doc</a></li>
+        </ul>
+        <!-- <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="../images//icon/search.png" alt="search" onclick=slide()></div> -->
+        <a class="get-started" href="../login.html">Get Started</a>
+        <img src="../images//icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
+      </nav>
+    </div>
     <div class="container-fluid bg-info">
       <div class="row">
         <!-- Sidebar -->
         <div class="col-md-2 text-light pt-3">
           <h5 class="site">Site Navigation</h5>
           <hr />
-          <ul class="list-unstyled">
-            <li><a href="#" class="">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+          <ul class="list">
+            <li><a href="#" class="anchor">&lt;p&gt;</a></li>
+            <li><a href="#" class="anchor">&lt;a&gt;</a></li>
+            <!-- 
+
+              etc
+
+             -->
           </ul>
         </div>
 
@@ -122,9 +156,9 @@ footer .btn:hover {
         <div class="col-md-10 mt-5 mx-auto">
           <div class="card mb-5">
             <div class="card-body">
-              <h1 class="card-title">Heading here</h1>
+              <h1 class=" text-primary">Heading here</h1>
               <p class="card-text">
-                Explanation here<br><br>
+                <span class="text-dark">Explanation here</span><br><br>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Perspiciatis, voluptatum recusandae? Earum cupiditate vel quos,
                 sint nostrum modi, natus asperiores optio ipsam suscipit
@@ -132,6 +166,22 @@ footer .btn:hover {
                 minima facere similique ab reprehenderit repellat? Facilis culpa nulla
                 repudiandae possimus deleniti doloremque, amet laudantium!
               </p>
+              <p class="card-text ">
+                <!-- write code ..... -->
+                <!-- ( '<'--write &lt; and '>'--write &gt; ) -->
+                <!-- Example -->
+                <p><code>&lt;html&gt;<br>
+                  &lt;head&gt;<br>
+                  &lt;title&gt;<span>Document</span>&lt;/title&gt;<br>
+                  &lt;/head&gt;<br>
+                  &lt;body&gt;<br>
+                  &lt;h1&gt;<span>hello world</span>&lt;/h1&gt;<br>
+                  &lt;/body&gt;<br>
+                  &lt;/html&gt;<br>
+                </code>
+                </p>
+              </p>
+
               <p class="card-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Perspiciatis, voluptatum recusandae? Earum cupiditate vel quos,
@@ -139,15 +189,16 @@ footer .btn:hover {
                 nisi illum esse veniam autem perspiciatis ullam quasi dignissimos
                 minima facere similique ab reprehenderit repellat? Facilis culpa nulla
                 repudiandae possimus deleniti doloremque, amet laudantium!
-              </p>
+              </p><br>
+
+              <!-- link youtube vedio in 'url' -->
+
+
               <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perspiciatis, voluptatum recusandae? Earum cupiditate vel quos,
-                sint nostrum modi, natus asperiores optio ipsam suscipit
-                nisi illum esse veniam autem perspiciatis ullam quasi dignissimos
-                minima facere similique ab reprehenderit repellat? Facilis culpa nulla
-                repudiandae possimus deleniti doloremque, amet laudantium!
-              </p>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">Click
+                Here to know more
+                </iframe> 
             </div>
           </div>
         </div>
