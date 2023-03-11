@@ -37,10 +37,10 @@ To run this project you need some extra files
 
 | Name | Username | Role | Key Contributions
 | --- | --- | --- | --- |
+| N. Karthik Akshaj | @KarthikAkshaj | Team Lead, Development | Clutter control, Home Page, Contact Us Page, Header and Footer in each site, Computer Courses Page |
 | Lab Rat | @rootCircle | Development, API & Merging Codes | Search functionality, ChatGPT integration, Dashboard Page |
 | Krishna Sumit | @krishnasumit155 | Development & API | Template for Docs page, Gallery Page, API, HTML Docs in Docs Page |
 | Manish Rawat | @manishiiitl1261 | Development & Docs | AI/ML Page, About Us Page, Revamping Gallery Page, 'CSS & JS' Docs in Docs Page, Login Page UI |
-| N. Karthik Akshaj | NA | Team Lead, Development | Clutter control, Home Page, Contact Us Page, Header and Footer in each site, Computer Courses Page |
 | Dev Chandna | @devchandna | Developement, Bug Fixing & Logo Design | Page Optimization(reduced loading time by 98%), Logo, Site Integration and Controls, Bug Squashing, Contact Us Page content,About Us Page |
 | Nimesh Dutt | @Nimeshdutt | Design & Content | Indexing in search, Contents in the Docs, Contact Us Page Design |
 
