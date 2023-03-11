@@ -41,7 +41,7 @@ To run this project you need some extra files
 | Krishna Sumit | @krishnasumit155 | Development & API | Template for Docs page, Gallery Page, API, HTML Docs in Docs Page |
 | Manish Rawat | @manishiiitl1261 | Development & Docs | AI/ML Page, About Us Page, Revamping Gallery Page, 'CSS & JS' Docs in Docs Page, Login Page UI |
 | N. Karthik Akshaj | NA | Team Lead, Development | Clutter control, Home Page, Contact Us Page, Header and Footer in each site, Computer Courses Page |
-| Dev Chandna | @devchanda | Developement, Bug Fixing & Logo Design | Page Optimization(reduced loading time by 98%), Logo, Site Integration and Controls, Bug Squashing, Contact Us Page content,About Us Page |
+| Dev Chandna | @devchandna | Developement, Bug Fixing & Logo Design | Page Optimization(reduced loading time by 98%), Logo, Site Integration and Controls, Bug Squashing, Contact Us Page content,About Us Page |
 | Nimesh Dutt | NA | Design & Content | Indexing in search, Contents in the Docs, Contact Us Page Design |
 
 <br>For more info refer commit history
