@@ -1,5 +1,5 @@
 # refdocs.io
-Submission for WDAD 2023
+## Submission for WDAD 2023
 
 
 To run this project you need some extra files
@@ -32,14 +32,14 @@ To run this project you need some extra files
 	  
 
 
-# These beautiful helped us with the project
+## These beautiful helped us with the project
 
 
 | Name | Username | Role | Key Contributions
 | --- | --- | --- | --- |
 | Lab Rat | @rootCircle | Development, API & Merging Codes | Search functionality, ChatGPT integration, Dashboard Page |
-| Krishna Sumit | @krishnasumit155 | Development & API | Template for docs page, Gallery Page, API, HTML Docs in docs Page |
-| Manish Rawat | @manishiiitl1261 | Development & Docs | AI/ML Page, About Us Page, Revamping Gallery Page, CSS/JS Docs in docs Page |
-| N. Karthik Akshaj | NA | Team Lead, Development | Clutter control, Contact Us Page, Header and Footer |
-| Dev Chandna | NA | Developement, Bug Fixing & Logo Design | Page Optimization(reduced loading time by 98%), Logo, Site Integration and Controls, Clutter control, Bug Squashing, Contact Us Page content,ABout Us Page |
-| Nimesh Dutt | NA | Design & Content | Indexing in search, Contents in the docs, Contact Us Page Design |
+| Krishna Sumit | @krishnasumit155 | Development & API | Template for Docs page, Gallery Page, API, HTML Docs in Docs Page |
+| Manish Rawat | @manishiiitl1261 | Development & Docs | AI/ML Page, About Us Page, Revamping Gallery Page, 'CSS & JS' Docs in Docs Page |
+| N. Karthik Akshaj | NA | Team Lead, Development | Clutter control, Contact Us Page, Header and Footer in each site |
+| Dev Chandna | NA | Developement, Bug Fixing & Logo Design | Page Optimization(reduced loading time by 98%), Logo, Site Integration and Controls, Bug Squashing, Contact Us Page content,About Us Page |
+| Nimesh Dutt | NA | Design & Content | Indexing in search, Contents in the Docs, Contact Us Page Design |
