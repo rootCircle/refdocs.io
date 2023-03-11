@@ -10,7 +10,7 @@ To run this project you need some extra files
 
 	chatgpt/chatgpt_config.js
 
-	const apiKey = 'OPEN-AI-KEY-HERE'
+		const apiKey = 'OPEN-AI-KEY-HERE'
 
 2)
 
