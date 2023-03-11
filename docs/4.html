@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>p tag</title>
+    <title>css_padding</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="docs.css">
   </head>
@@ -17,8 +17,7 @@
           <li><a  href="../index.html">Home</a></li>
           <li><a class="active" href="d1.html">Doc</a></li>
         </ul>
-        <!-- <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="../images//icon/search.png" alt="search" onclick=slide()></div> -->
-        <a class="get-started" href="../login.html">Get Started</a>
+        <a class="get-started" href="../login.html" style="text-decoration: none;">Get Started</a>
         <img src="../images//icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
       </nav>
     </div>
@@ -53,19 +52,32 @@
         <div class="col-md-10 mt-5 mx-auto">
           <div class="card mb-5">
             <div class="card-body">
-              <h1 class=" text-primary">iframe</h1>
+              <h1 class=" text-primary">Padding</h1>
               <p class="card-text">
-                The HTML <code>&lt;iframe&gt;</code>tag specifies an inline frame.<br>
-                Syntax:<br>
-                <code>&lt;iframe src="url" title="description"&gt;</code><code>&lt;/iframe&gt;</code><br>
-
-                ---&gt;Use the height and width attributes to specify the size of the
-                iframe.<br>
-                Example:<br>
-                <code>&lt;iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"&gt;</code>
-                <code>&lt;/iframe&gt;</code><br>
-              </p><br>
-              <!-- link youtube vedio in 'url' -->
+                <span class="text-dark"></span><br><br>
+              ** The CSS padding properties are used to generate space around an
+              element's content, inside of any defined borders.
+              With CSS, you have full control over the padding. There are properties
+              for setting the padding for each side of an element (top, right, bottom,
+              and left) <br>
+              CSS has properties for specifying the padding for each side of an
+element: <br>
+● padding-top <br>
+● padding-right<br>
+● padding-bottom<br>
+● padding-left<br>
+All the padding properties can have the following values:<br>
+● length - specifies a padding in px, pt, cm, etc.<br>
+● % - specifies a padding in % of the width of the containing
+element<br>
+● inherit - specifies that the padding should be inherited from the
+parent element<br>
+Note: Negative values are not allowed.
+ ** 
+              </p>
+              <p class="card-text ">
+                <img src="../images/imgs/padding.png" >
+              </p>
               <p class="card-text">
                 <!-- <iframe width="420" height="315"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">Click

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>p tag</title>
+    <title>css_position</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet" href="docs.css">
   </head>
@@ -17,8 +17,7 @@
           <li><a  href="../index.html">Home</a></li>
           <li><a class="active" href="d1.html">Doc</a></li>
         </ul>
-        <!-- <div class="srch"><input type="text" class="search" placeholder="Search here..."><img src="../images//icon/search.png" alt="search" onclick=slide()></div> -->
-        <a class="get-started" href="../login.html">Get Started</a>
+        <a class="get-started" href="../login.html" style="text-decoration: none;">Get Started</a>
         <img src="../images//icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
       </nav>
     </div>
@@ -53,19 +52,29 @@
         <div class="col-md-10 mt-5 mx-auto">
           <div class="card mb-5">
             <div class="card-body">
-              <h1 class=" text-primary">iframe</h1>
+              <h1 class=" text-primary">position</h1>
               <p class="card-text">
-                The HTML <code>&lt;iframe&gt;</code>tag specifies an inline frame.<br>
-                Syntax:<br>
-                <code>&lt;iframe src="url" title="description"&gt;</code><code>&lt;/iframe&gt;</code><br>
+                <span class="text-dark"></span><br><br>
+              **The position property specifies the type of positioning method used for an element.<br>
 
-                ---&gt;Use the height and width attributes to specify the size of the
-                iframe.<br>
-                Example:<br>
-                <code>&lt;iframe src="demo_iframe.htm" height="200" width="300" title="Iframe Example"&gt;</code>
-                <code>&lt;/iframe&gt;</code><br>
-              </p><br>
-              <!-- link youtube vedio in 'url' -->
+              There are five different position values: <br>
+              
+              static ->    HTML elements are positioned static by default.
+                Static positioned elements are not affected by the top, bottom, left, and right properties.
+              An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page: <br><br>
+              relative -> An element with position: relative; is positioned relative to its normal position.Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other 
+              content will not be adjusted to fit into any gap left by the element. <br> <br>
+              fixed ->  An element with position: fixed; is positioned relative to the viewport, which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+               A fixed element does not leave a gap in the page where it would normally have been located. <br> <br>
+              absolute ->An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+                However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+               Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+              sticky ->An element with position: sticky; is positioned based on the user's scroll position. <br><br>
+              A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed). ** 
+              </p>
+              <p class="card-text ">
+                <img src="../images/imgs/position.png" >
+              </p>
               <p class="card-text">
                 <!-- <iframe width="420" height="315"
                 src="https://www.youtube.com/embed/tgbNymZ7vqY">Click
