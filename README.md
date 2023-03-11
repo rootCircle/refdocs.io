@@ -32,7 +32,7 @@ To run this project you need some extra files
 	  
 
 
-## These beautiful helped us with the project
+## These fine people helped us with the project
 
 
 | Name | Username | Role | Key Contributions
@@ -43,3 +43,5 @@ To run this project you need some extra files
 | N. Karthik Akshaj | NA | Team Lead, Development | Clutter control, Contact Us Page, Header and Footer in each site |
 | Dev Chandna | NA | Developement, Bug Fixing & Logo Design | Page Optimization(reduced loading time by 98%), Logo, Site Integration and Controls, Bug Squashing, Contact Us Page content,About Us Page |
 | Nimesh Dutt | NA | Design & Content | Indexing in search, Contents in the Docs, Contact Us Page Design |
+
+<br>For more info refer commit history
