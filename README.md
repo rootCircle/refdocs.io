@@ -1,5 +1,6 @@
 # refdocs.io
-An educational website for developers to learn. Integrated with docs and lectures and CHATGPT with login/signup support using Firebase.
+An educational website for developers to learn. Integrated with docs and lectures and CHATGPT with login/signup support using Firebase.<br><br>
+Based upon [LearnEd_E-learning_Website](https://github.com/roshan9419/LearnEd_E-learning_Website) by [Roshan Kumar](https://github.com/roshan9419).
 
 ## Submission for WDAD 2023
 
@@ -29,7 +30,12 @@ To run this project you need some extra files
 		  // Initialize Firebase
 		  firebase.initializeApp(firebaseConfig);
 	  
-
+## Cool Features
+1) ChatGPT integration
+2) Login/ Signup support using FirebaseDB
+3) Search functionality (based on pregenerated index)
+4) Documentation for certain HTML, CSS and JS topics
+5) Topics ranging from Web Development to AI/ML.
 
 ## These fine people helped us with the project
 
