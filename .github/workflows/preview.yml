@@ -24,11 +24,6 @@ jobs:
       - name: Set production base URL
         run: echo "BASE_URL=https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/" >> $GITHUB_ENV
 
-      - name: Build website
-        run: hugo --baseURL "${{ env.BASE_URL }}"
-        env:
-          HUGO_ENV: production
-
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
