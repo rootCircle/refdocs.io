@@ -1,36 +1,19 @@
-# .github/workflows/gh-pages.yml
-name: github pages
-
+name: Deploy Website Preview
 on:
-  push:
+  pull_request:
     branches:
-      - main # deploy main. If your branch is `master`, you'll have to replace that throughout this file.
+      - main
 
 jobs:
   deploy:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
-      - name: Set domain
-        # If you're using the default github pages url, use this instead:
-        run: echo "DOMAIN=${{ github.actor }}.github.io" >> $GITHUB_ENV
-
-      - name: Checkout website repo
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
         with:
-          submodules: true # fetch the theme
-          # you need to set this as an environment env if your repo or any submodules (e.g the theme) is private:
-          # token: ${{ secrets.PRIVATE_REPO_TOKEN }}
-
-      - name: Set production base URL
-        run: echo "BASE_URL=https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/" >> $GITHUB_ENV
-
-      - name: Build website
-        run: hugo --baseURL "${{ env.BASE_URL }}"
-        env:
-          HUGO_ENV: production
-
-      - name: Deploy
+          ref: ${{ github.event.pull_request.head.sha }}
+          fetch-depth: 0
+      - name: Deploy to preview environment
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./
+          publish_branch: pr-${{ github.event.pull_request.number }}
