@@ -123,10 +123,10 @@ function display(n) {
 function sideMenu(side) {
   var menu = document.getElementById('side-menu');
   if(side==0) {
-    menu.style = 'transform: translateX(0vh); position:fixed;';
+    menu.style = 'transition: .8s; transform: translateX(0vh); position:fixed;';
   }
   else {
-    menu.style = 'transform: translateX(-100%);';
+    menu.style = 'transition: .3s; transform: translateX(-100%);';
   }
   side++;
 }
