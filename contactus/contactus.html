@@ -10,6 +10,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact Us</title>
         <link rel="stylesheet" href="contactus.css">
+
+        <script>
+            function sideMenu(side) {
+                var menu = document.getElementById('side-menu');
+                if(side==0) {
+                    menu.style.visibility = "visible";
+                    menu.style = 'transition: .8s; transform: translateX(0vh); position:fixed;';
+                }
+                else {
+                    menu.style = 'transform: translateX(-100%);';
+                }
+                side++;
+            }
+
+        </script>
     </head>
 
     <body>
@@ -25,9 +40,29 @@
                 <div class="srch"><a href="../search/search.html"><button
                             class="btn55">SEARCH</button></a></div>
                 <a class="get-started" href="../login.html">Get Started</a>
-                <!-- <img src="../images/icon/menu.png" class="menu" onclick="sideMenu(0)" -->
+                <img src="../images/icon/menu.png" class="menu" onclick="sideMenu(0)">
                 <!-- alt="menu"> -->
             </nav>
+            <div class="side-menu" id="side-menu" style="visibility: hidden;">
+				<div class="close" onclick="sideMenu(1)"><img src="../images/icon/close.png"
+						alt=""></div>
+				<div class="user">
+
+				</div>
+				<ul>
+                    <ul>
+                        <li><a href="../index.html" onclick="sideMenu(1)">Home</a></li>
+                        <li><a href="../aboutus/about_web.html" onclick="sideMenu(1)">About Us</a></li>
+                    </ul>
+                    <li><a class="active" href="../contactus/contactus.html" onclick="sideMenu(1)">Contact Us</a></li>
+                    <ul>
+                        <li><a href="../gallery/gallery.html" onclick="sideMenu(1)">Gallery</a></li>
+                        <li><a href="../search/search.html" onclick="sideMenu(1)">Search</a></li>
+                        <li><a href="../login.html" onclick="sideMenu(1)">Get Started</a></li>
+                        
+                    </ul>
+				</ul>
+			</div>
         </header>
 
             <div class="container">
