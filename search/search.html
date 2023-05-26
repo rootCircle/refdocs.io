@@ -11,14 +11,21 @@
     <link rel="stylesheet" href="search.css">
 </head>
   <body>
-
-
-    <nav class="navbar navbar-expand navbar-dark bg-primary">
-        <div class="nav navbar-nav">
-            <a class="nav-item nav-link" href="../index.html">Homepage</a>
-            <a class="nav-item nav-link active" href="#" disabled>Search <span class="sr-only">(current)</span></a>
-        </div>
-    </nav>
+    <header id="header">
+        <nav>
+            <div class="logo"><img src="../images/icon/logo.png" alt="logo"></div>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../aboutus/about_web.html">About Us</a></li>
+                <li><a href="../contactus/contactus.html">Contact Us</a></li>
+                <li><a href="../gallery/gallery.html">Gallery</a></li>
+            </ul>
+            <div class="srch" ><a href="../search/search.html"><button class="btn55" >SEARCH</button></a></div>
+            <a class="get-started" href="../login.html">Get Started</a>
+            <!-- <img src="../images/icon/menu.png" class="menu" onclick="sideMenu(0)"
+                alt="menu"> -->
+        </nav>
+    </header>
 
     <div class="search-prompt">
         <h1 class="search-heading">Search Courses</h1>
@@ -29,10 +36,10 @@
                     
                 </div>
                 <div class="col-sm-9">
-                    <input class="search-input form-control mr-sm-2 rounded-pill" type="text" placeholder="Search">
+                    <input class="search-input form-control mr-sm-2 rounded-pill" style="height:3.5rem;" type="text" placeholder="Search">
                 </div>
                 <div class="col-sm-1">
-                    <button class="btn btn-primary my-2 my-sm-0 rounded-pill" onclick="return search(event)">Search</button>
+                    <button class="btn btn-info my-2 my-sm-0 rounded-pill" style="margin: 1rem; padding-left: 1.5rem; padding-right: 1.5rem; padding-top: 0.5rem; padding-bottom: 0.5rem;"onclick="return search(event)">Search</button>
                 </div>
             </div>
         </form>

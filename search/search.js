@@ -121,18 +121,18 @@ function getIndex(){
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
-            "Name" : "<blockquote>",
-            "Description" : "The HTML <blockquote> element defines a section that is quoted from another source.",
+            "Name" : "blockquote",
+            "Description" : "The HTML blockquote element defines a section that is quoted from another source.",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
             "Name" : "q tag",
-            "Description" : "The HTML <q> tag defines a short quotation.",
+            "Description" : "The HTML q tag defines a short quotation.",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
             "Name" : "abbr",
-            "Description" : "The HTML <abbr> tag defines an abbreviation or an acronym, like HTML, CSS, Mr., Dr., ASA, ATM.",
+            "Description" : "The HTML abbr tag defines an abbreviation or an acronym, like HTML, CSS, Mr., Dr., ASA, ATM.",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
@@ -152,7 +152,7 @@ function getIndex(){
         },
         {
             "Name" : "comments",
-            "Description" : "<!-- This is a comment -->",
+            "Description" : "!-- This is a comment --",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
@@ -182,12 +182,12 @@ function getIndex(){
         },
         {
             "Name" : "span",
-            "Description" : "The <span> element is an inline container used to mark up a part of a text, or a part of a document.",
+            "Description" : "The span element is an inline container used to mark up a part of a text, or a part of a document.",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
             "Name" : "forms tag",
-            "Description" : "The HTML <form> element is used to create an HTML form for user input",
+            "Description" : "The HTML form element is used to create an HTML form for user input",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
@@ -202,7 +202,7 @@ function getIndex(){
         },
         {
             "Name" : "button",
-            "Description" : "The <input type=submit> defines a button for submitting the form data to a form-handler.",
+            "Description" : "The input type=submit defines a button for submitting the form data to a form-handler.",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
@@ -217,7 +217,7 @@ function getIndex(){
         },
         {
             "Name" : "text area",
-            "Description" : "The <textarea> element defines a multi-line input field (a text area)",
+            "Description" : "The textarea element defines a multi-line input field (a text area)",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
@@ -242,7 +242,7 @@ function getIndex(){
         },
         {
             "Name" : "The height and width Attributes",
-            "Description" : "The input height and width attributes specify the height and width of an <input type=image> element.",
+            "Description" : "The input height and width attributes specify the height and width of an input type=image element.",
             "URL" : "../subjects/computer_courses.html#html"
         },
         {
