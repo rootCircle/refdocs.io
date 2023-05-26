@@ -225,15 +225,16 @@ a, button {
 .side-menu {
 	width: 100%;
 	height: 100%;
-	background: rgba(182, 33, 90, 0.993);
+	background: rgba(182, 33, 90, 0.923);
 	position: absolute;
 	top: 0;
+	transform: translateX(-100%);
 	transition: .8s;
 	z-index: 2000;
-	transform: translateX(-100%);
 }
 .side-menu ul {
-	margin-top: 35%;
+	margin-top: 7rem;
+	margin-bottom: 5rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;

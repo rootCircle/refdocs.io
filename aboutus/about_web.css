@@ -14,7 +14,7 @@ body {
 	background: #FFF;
 	font-family: 'Open Sans', sans-serif;
 	line-height: 2.5rem;
-	background-color: #3751fa;
+	
 }
 
 /*SCROLLBAR Styling*/
@@ -360,12 +360,10 @@ footer .btn:hover {
 .head-container
 {
 display:inline-block;
-font-size: 70px;
-color: white;
-margin: 70px 0px 40px 35% ;
+font-size: 50px;
+margin: 60px 0px 30px 33% ;
 padding-top: 8rem;
 padding-left: 6rem;
-background-color:#3751fa;
 justify-content: center;
 
 }
@@ -373,13 +371,13 @@ justify-content: center;
 .context
 {
     display:inline-block;
-	background-color: rgb(232, 225, 225);
+	
 	margin: 20px 20px 20px 20px ;
-	border: 2px dashed grey;
+	border: 2px dashed #DF2771;
 	padding: 2.5rem;
 }
 .context p
 {
-    font-size: 25px;
+    font-size: 18px;
 	color: #2e2e2e;
 }
