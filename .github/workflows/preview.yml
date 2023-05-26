@@ -1,29 +1,38 @@
-# .github/workflows/preview.yml
-name: Deploy PR previews
+	
+
+# .github/workflows/gh-pages.yml
+name: github pages
 
 on:
-  pull_request:
-    types:
-      - opened
-      - reopened
-      - synchronize
-      - closed
-
-concurrency: preview-${{ github.ref }}
+  push:
+    branches:
+      - main # deploy main. If your branch is `master`, you'll have to replace that throughout this file.
 
 jobs:
-  deploy-preview:
+  deploy:
     runs-on: ubuntu-20.04
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: Set domain
+        # If you're using the default github pages url, use this instead:
+        run: echo "DOMAIN=${{ github.actor }}.github.io" >> $GITHUB_ENV
 
-      - name: Install and Build
-        run: |
-          npm install
-          npm run build
-
-      - name: Deploy preview
-        uses: rossjrw/pr-preview-action@v1
+      - name: Checkout website repo
+        uses: actions/checkout@v2
         with:
-          source-dir: ./build/
+          submodules: true # fetch the theme
+          # you need to set this as an environment env if your repo or any submodules (e.g the theme) is private:
+          # token: ${{ secrets.PRIVATE_REPO_TOKEN }}
+
+      - name: Set production base URL
+        run: echo "BASE_URL=https://${{ env.DOMAIN }}/${{ github.event.repository.name }}/" >> $GITHUB_ENV
+
+      - name: Build website
+        run: hugo --baseURL "${{ env.BASE_URL }}"
+        env:
+          HUGO_ENV: production
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
