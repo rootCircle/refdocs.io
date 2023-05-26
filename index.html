@@ -11,13 +11,6 @@
 		<script type="text/javascript" src="script.js"></script>
 		<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
 		<script>
-		$(window).on('scroll', function(){
-  			if($(window).scrollTop()){
-  			  $('nav').addClass('black');
- 			 }else {
- 		   $('nav').removeClass('black');
- 		 }
-		})
 	</script>
 	</head>
 	<body>
@@ -59,13 +52,13 @@
 
 				</div>
 				<ul>
-					<li><a class="active" href="">Home</a></li>
-					<li><a href="#portfolio_section">Portfolio</a></li>
-					<li><a href="#team_section">Team</a></li>
-					<li><a href="#services_section">Services</a></li>
-					<li><a href="aboutus/about_web.html">About Us</a></li>
-					<li><a href="contactus/contactus.html">Contact Us</a></li>
-					<li><a href="gallery/gallery.html">Gallery</a></li>
+					<li><a class="active" href="" onclick="sideMenu(1)">Home</a></li>
+					<li><a href="#portfolio_section" onclick="sideMenu(1)">Portfolio</a></li>
+					<li><a href="#team_section" onclick="sideMenu(1)">Team</a></li>
+					<li><a href="#services_section" onclick="sideMenu(1)">Services</a></li>
+					<li><a href="aboutus/about_web.html" onclick="sideMenu(1)">About Us</a></li>
+					<li><a href="contactus/contactus.html" onclick="sideMenu(1)">Contact Us</a></li>
+					<li><a href="gallery/gallery.html" onclick="sideMenu(1)">Gallery</a></li>
 				</ul>
 			</div>
 		</header>
