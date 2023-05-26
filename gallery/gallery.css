@@ -769,6 +769,15 @@ footer .btn:hover {
 	opacity: 66;
 background-image:url(../images/imgs/9.jpg);
 } */
+.gal{
+margin-top:10rem;
+position:relative;	
+}
+.gal h1{
+justify-content: center;
+text-align: center;
+font-size: 3rem;
+}
 .wrapper {
     display: flex;
     max-width: 650px;
