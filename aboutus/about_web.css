@@ -332,7 +332,7 @@ footer .btn:hover {
 	}
 }
 
-/* @media screen and (max-width: 1000px) {
+ @media screen and (max-width: 1000px) {
 	nav ul, nav .search {
 		display: none;
 	}
@@ -356,7 +356,7 @@ footer .btn:hover {
 		margin: 30px;
 		margin-top: 0px;
 	}
-} */
+}
 .head-container
 {
 display:inline-block;
