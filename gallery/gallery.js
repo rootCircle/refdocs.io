@@ -3,6 +3,7 @@
 function sideMenu(side) {
   var menu = document.getElementById('side-menu');
   if(side==0) {
+    menu.style.visibility="visible";
     menu.style = 'transform: translateX(0vh); position:fixed;';
   }
   else {
