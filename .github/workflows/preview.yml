@@ -1,19 +1,14 @@
-name: Deploy Website Preview
+name: CI
 on:
-  pull_request:
-    branches:
-      - main
-
+  - push
+  - pull_request
 jobs:
   deploy:
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - uses: ./
         with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          fetch-depth: 0
-      - name: Deploy to preview environment
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          publish_dir: ./
-          publish_branch: pr-${{ github.event.pull_request.number }}
+          token: ${{ github.token }}
+          environment: production
