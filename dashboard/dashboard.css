@@ -3,19 +3,19 @@ body{
     text-align: center;
     margin-left: auto;
 }
-
-
-
 /* ----------------CLASS SELECTORS-------------------------- */
 .heading{
     margin-top: 3rem;
+    color: #b5b2b2;
 }
+
 .card{
     background-color: #DF2771;
 }
 .card:hover{
     background-color: #be2864;
 }
+  
 .row a{
     text-decoration: none;
     color:#E5E8EF;
@@ -102,40 +102,181 @@ footer .btn:hover {
     opacity: .7;
 }
 nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    top: 0;
-    position: fixed;
-    display: flex;
-    width: 100%;
-    z-index: 1000;
-    background: #fff;
-    justify-content: space-around;
-    transition: 1.5s;
-    align-items: center;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	top: 0;
+	position: fixed;
+	display: flex;
+	width: 100%;
+	z-index: 1000;
+	background: #fff;
+	justify-content: space-around;
+	transition: 1.5s;
+	align-items: center;
 }
 nav ul {
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 }
 nav ul li {
-    list-style: none;
-    margin: 5px 10px;
+	list-style: none;
+	margin: 7px 20px;
 }
 nav ul li a {
-    padding: 2px 10px;
-    color: #2e2e2e;
-    cursor: pointer;
-    transition: .5s;
-    text-decoration: none;
+	padding: 2px 5px;
+	/* padding-left: 5px; */
+	/* padding-right: 5px; */
+	color: #2e2e2e;
+	cursor: pointer;
+	transition: .5s;
+	text-decoration: none;
 }
 nav ul li a:hover {
-    color: #fff;
-    border-radius: 5px;
-    background: #DF2771;
+	color: #fff;
+	border-radius: 5px;
+	background: #DF2771;
 }
 .active {
-    color: #fff;
-    border-radius: 5px;
-    background: #DF2771;
+	color: #fff;
+	border-radius: 5px;
+	background: #DF2771;
 }
+.srch {
+	padding: 10px 10px;
+	display: flex;
+	/* align-items: center; */
+	justify-content: center;
+	/* background: #0066ff; */
+}
+.srch img {
+	width: 25px;
+	cursor: pointer;
+}
+.srch .search {
+	/* padding: 2px 10px; */
+	outline: none;
+	border: none;
+	background: transparent;
+}
+
+.btn55 {
+    width: 100px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btn55:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btn55:active {
+    color: #000
+}
+
+.btn55:active:after {
+    background: transparent;
+}
+
+.btn55:hover:before {
+    opacity: 1;
+}
+
+.btn55:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+a, button {
+	float: left;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #2E3D49;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.get-started {
+	margin-left: 50px;
+	padding: 5px 20px;
+	border: 2px solid #DF2771;
+	border-radius: 20px;
+	text-decoration: none;
+	
+	transition: .5s;
+	background-color: #DF2771;
+	color: #fff;
+}
+.get-started:hover {
+	color: #2e2e2e;
+	background: #fff;
+}
+.logo img{
+	/* width: 120px; */
+	cursor: pointer;
+	transition: all 1s;
+}
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+.get-started {
+	margin-left: 50px;
+	padding: 5px 20px;
+	border: 2px solid #DF2771;
+	border-radius: 20px;
+	text-decoration: none;
+	
+	transition: .5s;
+	background-color: #DF2771;
+	color: #fff;
+}
+.get-started:hover {
+	color: #2e2e2e;
+	background: #fff;
+}
+.logo img{
+	width: 120px;
+	cursor: pointer;
+	transition: all 1s;
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+
