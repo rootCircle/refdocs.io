@@ -2,12 +2,13 @@
 <html lang="en">
 
 <head>
+  <link rel="shortcut icon" type="png" href="../images/icon/favicon.png">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="gallery.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-  <title>gallery</title>
+  <title>Gallery</title>
 </head>
 
 <body>
@@ -24,15 +25,15 @@
 			<a class="get-started" href="../login.html">Get Started</a>
 			<img src="../images//icon/menu.png" class="menu" onclick="sideMenu(0)" alt="menu">
 		</nav>
-        <div class="side-menu" id="side-menu" visibility="hidden">
+    <div class="side-menu" id="side-menu" style="visibility:hidden;">
 			<div class="close" onclick="sideMenu(1)"><img src="../images//icon/close.png" alt=""></div>
 			<div class="user">
 			</div>
 			<ul>
-				<li><a  href="../index.html">Home</a></li>
-        <li><a href="../aboutus/about_web.html">About Us</a></li>
-        <li><a href="../contactus/contactus.html">Contact Us</a></li>
-        <li><a class="active" href="gallery.html">Gallery</a></li>
+				<li><a  href="../index.html" onclick="sideMenu(1)">Home</a></li>
+        <li><a href="../aboutus/about_web.html" onclick="sideMenu(1)">About Us</a></li>
+        <li><a href="../contactus/contactus.html" onclick="sideMenu(1)">Contact Us</a></li>
+        <li><a class="active" href="gallery.html" onclick="sideMenu(1)">Gallery</a></li>
       </ul>
     </div>
 <div class="gal">
