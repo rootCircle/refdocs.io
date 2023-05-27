@@ -1,4 +1,5 @@
 async function generateResponse(prompt) {
+  
   // const apiKey = 'OPEN-AI-KEY'; in chatgpt_config.js
   const url = 'https://api.openai.com/v1/completions';
 
