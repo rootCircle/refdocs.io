@@ -4,6 +4,7 @@ on:
   pull_request:
     types:
       - opened
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
   deploy:
