@@ -1,9 +1,8 @@
 # refdocs.io
-An educational website for developers to learn. Integrated with docs and lectures and CHATGPT with login/signup support using Firebase.<br><br>
+An educational website for developers to learn. Integrated with docs and lectures and CHATGPT with login/signup support using ~Firebase~ SpringBoot.<br><br>
 Based upon [LearnEd_E-learning_Website](https://github.com/roshan9419/LearnEd_E-learning_Website) by [Roshan Kumar](https://github.com/roshan9419).
 
 ## Submission for WDAD 2023
-
 
 To run this project you need some extra files
 
