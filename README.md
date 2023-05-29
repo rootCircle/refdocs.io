@@ -10,7 +10,7 @@ To run this project you need some extra files [Firebase won't be required]
 
 1) Generate api key from platform.openai.com and insert in the following file
 
-	chatgpt/chatgpt_config.js
+	`chatgpt/chatgpt_config.js`
 
 		const apiKey = 'OPEN-AI-KEY-HERE'
 
