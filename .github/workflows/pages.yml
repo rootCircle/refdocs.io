@@ -25,16 +25,3 @@ jobs:
           publish_dir: ./dist  # Replace with your build output directory
           cname: ${{ steps.set_url.outputs.url }}
 
-      - name: Schedule branch deletion
-        uses: repo-sync/pull-request@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event_type: schedule
-          schedule: '*/30 * * * *'  # Customize the schedule as per your preference
-
-      - name: Delete branch
-        uses: repo-sync/pull-request@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          event_type: delete
-          branches: ${{ github.event.pull_request.head.ref }}
