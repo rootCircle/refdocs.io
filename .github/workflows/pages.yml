@@ -14,17 +14,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build  # Replace with your build command
-
       - name: Set unique deploy URL
         id: set_url
         run: echo "::set-output name=url::https://pr-${{ github.event.pull_request.number }}.github.io"
