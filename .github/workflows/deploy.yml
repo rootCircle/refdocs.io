@@ -11,4 +11,4 @@ jobs:
       - uses: amondnet/vercel-action@v25
         with:
           # Vercel token
-          vercel-token: ${secrets.VERCEL_TOKEN}
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
