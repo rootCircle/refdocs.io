@@ -1,0 +1,24 @@
+name: Deploy PR
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+    - name: Build Jekyll site
+      uses: jekyll/actions@v2
+      with:
+        args: build --destination _site
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./_site
+        cname: pr${{ github.event.pull_request.number }}.refdocsio.rootcircle.github.io
