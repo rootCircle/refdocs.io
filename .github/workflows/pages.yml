@@ -1,24 +1,34 @@
-name: Deploy PR
+name: Deploy PR to GitHub Pages
 
 on:
   pull_request:
-    types: [opened]
+    types:
+      - opened
+  workflow_dispatch:  # Allow manual triggering
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
-    env:
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-    - name: Build Jekyll site
-      uses: jekyll/actions@v2
-      with:
-        args: build --destination _site
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        cname: pr${{ github.event.pull_request.number }}.refdocsio.rootcircle.github.io
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set unique deploy URL
+        id: set_url
+        run: echo "URL=https://rootcircle.github.io/refdocs.io/pr${{ github.event.pull_request.number }}" >> $GITHUB_ENV
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist  # Replace with your build output directory
+          cname: ${{ env.URL }}
+
+      - name: Comment deployed URL on pull request
+        run: |
+          echo "Deployed URL: ${{ env.URL }}" > comment.md
+          echo "Comment created by GitHub Actions" >> comment.md
+          gh pr comment ${{ github.event.pull_request.number }} --body-file comment.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
