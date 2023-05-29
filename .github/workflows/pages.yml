@@ -16,12 +16,11 @@ jobs:
 
       - name: Set unique deploy URL
         id: set_url
-        run: echo "::set-output name=url::https://pr-${{ github.event.pull_request.number }}.github.io"
+        run: echo "URL=https://pr-${{ github.event.pull_request.number }}.github.io" >> $GITHUB_ENV
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist  # Replace with your build output directory
-          cname: ${{ steps.set_url.outputs.url }}
-
+          cname: ${{ env.URL }}
