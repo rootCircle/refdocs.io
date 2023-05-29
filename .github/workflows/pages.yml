@@ -24,3 +24,11 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist  # Replace with your build output directory
           cname: ${{ env.URL }}
+
+      - name: Comment deployed URL on pull request
+        run: |
+          echo "Deployed URL: ${{ env.URL }}" > comment.md
+          echo "Comment created by GitHub Actions" >> comment.md
+          gh pr comment ${{ github.event.pull_request.number }} --body-file comment.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
