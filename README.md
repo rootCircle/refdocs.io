@@ -16,7 +16,7 @@ To run this project you need some extra files
 
 2) Generate firebase config from Firebase console (create new project then add app for web and then copy the firebaseConfig to firebaseConfig variable). Code will look something like this.
 	
-	Save this to login/config.js
+	Save this to `login/config.js`
 	
 		// Your web app's Firebase configuration
 		var firebaseConfig = {
