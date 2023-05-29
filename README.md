@@ -31,7 +31,7 @@ To run this project you need some extra files
 		  firebase.initializeApp(firebaseConfig);
 	  
 ## Cool Features
-1) ChatGPT integration
+1) ChatGPT integration.
 2) Login/ Signup support using FirebaseDB
 3) Search functionality (based on pregenerated index)
 4) Documentation for certain HTML, CSS and JS topics
