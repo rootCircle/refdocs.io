@@ -1,9 +1,7 @@
 name: Deploy to GitHub Pages
 
 on:
-  pull_request:
-    types:
-      - opened
+  pull_request
 
 jobs:
   deploy:
