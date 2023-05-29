@@ -16,7 +16,7 @@ jobs:
 
       - name: Set unique deploy URL
         id: set_url
-        run: echo "URL=https://rootcircle.github.io/refdocs.io/pr-${{ github.event.pull_request.number }}" >> $GITHUB_ENV
+        run: echo "URL=https://rootcircle.github.io/refdocs.io/pr${{ github.event.pull_request.number }}" >> $GITHUB_ENV
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
