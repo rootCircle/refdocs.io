@@ -13,11 +13,25 @@
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
             crossorigin="anonymous">
         <link rel="stylesheet" href="dashboard.css">
+        <script>
+            function sideMenu(side) {
+                var menu = document.getElementById('side-menu');
+                if(side==0) {
+                    menu.style.visibility = "visible";
+                    menu.style = 'transition: .8s; transform: translateX(0vh); position:fixed;';
+                }
+                else {
+                    menu.style = 'transform: translateX(-100%);';
+                }
+                side++;
+            }
+
+        </script>
     </head>
     <body>
-
-        <header id="header">
+        <header class="header">
             <nav>
+                
                 <div class="logo"><img src="../images/icon/logo.png" alt="logo"></div>
                 <ul>
                     <li><a class="nav-item nav-link active" href="#" disabled>Dashboard
@@ -35,10 +49,30 @@
                 <div class="srch"><a href="../search/search.html"><button
                             class="btn55">SEARCH</button></a></div>
                 <a class="get-started" href="../login.html">Get Started</a>
+                <img src="../images/icon/menu.png" class="menu" onclick="sideMenu(0)">
+        
             </nav>
-        </header>
+            <div class="side-menu" id="side-menu" style="visibility: hidden;">
+				<div class="close" onclick="sideMenu(1)"><img src="../images/icon/close.png"
+						alt=""></div>
+				<div class="user">
 
-        <div class="heading" style="margin-top:12rem;">
+				</div>
+				<ul>
+                        <li><a href="../index.html" onclick="sideMenu(1)">Home</a></li>
+                        <li><a href="../chatgpt/chatgpt.html" onclick="sideMenu(1)">CHATGPT</a></li>
+                    <li><a class="active" href="../docs/d1.html" onclick="sideMenu(1)">Docs</a></li>
+                        <li><a href="../ai_ml/ai_ml.html" onclick="sideMenu(1)">AI and ML course</a></li>
+                        <li><a href="../subjects/computer_courses.html" onclick="sideMenu(1)">Web
+                            Development</a></li>
+                        <li><a href="../search/search.html" onclick="sideMenu(1)">Search</a></li>
+                
+				</ul>
+			</div>
+        </header>
+        
+
+        <div class="heading">
             <h1>Welcome User</h1>
             <h3>Enjoy perks!!!</h3>
         </div>
@@ -50,21 +84,12 @@
                     <div class="card-body">
                       <h5 class="card-title">AI and ML</h5>
                       <p class="card-text">Learn AI and ML in quick and easy manner</p>
-                      <div class="abtn"><a href="../ai_ml/ai_ml.html" class="btnA"><span>Enter the world of AI and ML</span></a></div>
+                      <br>
+                      <a href="../ai_ml/ai_ml.html"class="stretched-link">Enter the world of AI and ML</a>
                     </div>
                   </div>
             </div>
-            <!-- <div class="col-md-4">
-                <a href="../chatgpt/chatgpt.html">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">CHATGPT</h3>
-                            <p class="card-text">Use ChatGPT to solve doubt for
-                                completely free, without waiting in queue</p>
-                        </div>
-                    </div>
-                </a>
-            </div> -->
+            
 
             <div class="col-md-4">
                 <div class="card">
@@ -72,23 +97,12 @@
                     <div class="card-body">
                       <h5 class="card-title">ChatGPT</h5>
                       <p class="card-text">Use ChatGPT to solve doubt for completely free, without waiting</p>
-                     <a href="../chatgpt/chatgpt.html" class="btnA"><span>and use your Chatbot here</span></a>
+                     <a href="../chatgpt/chatgpt.html" class="stretched-link">Talk and use your Chatbot here</a>
+                
                     </div>
                   </div>
             </div>
             
-
-            <!-- <div class="col-md-4">
-                <a href="../docs/d1.html">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Web Docs</h3>
-                            <p class="card-text">Refer docs for free for HTML,
-                                CSS and JS</p>
-                        </div>
-                    </div>
-                </a>
-            </div> -->
 
             <div class="col-md-4">
                 <div class="card">
@@ -96,7 +110,8 @@
                     <div class="card-body">
                       <h5 class="card-title">Docs</h5>
                       <p class="card-text">Read at your comfort and gain knowledge through our documentation</p>
-                      <a href="../docs/d1.html" class="btnA"><span>reading Docs</span></a>
+                     
+                      <a href="../docs/d1.html" class="stretched-link">Read Docs</a>
                     </div>
                   </div>
             </div>
