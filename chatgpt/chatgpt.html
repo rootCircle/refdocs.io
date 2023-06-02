@@ -27,7 +27,7 @@
                 onclick="handleRequest(event)">Send Request</button>
         </form>
 
-        <div id="response">
+        <div id="response" style="visibility: hidden;">
             <pre>
         <code class="response-text"></code>
     </pre>
@@ -37,6 +37,7 @@
         <script>
         async function handleRequest(event) {
             event.preventDefault();
+            document.querySelector("#response").style.visibility="visible";
             var resp = document.querySelector(".response-text");
             resp.textContent = "Loading....Please be patient";
             const prompt = document.getElementById('prompt-input').value;

@@ -484,6 +484,7 @@ function showResults(resultData){
     if (resultData.length === 0) {
         container.innerHTML="No result found!";
         domLast.style.width="auto";
+        container.style.color="white";
         container.style.fontSize="2.5rem";
         container.style.paddingTop="7rem";
     }
@@ -510,7 +511,7 @@ function showResults(resultData){
         container.appendChild(card);
     }
 
-    document.querySelector(".search-prompt").style.marginTop = "auto";
+    document.querySelector(".search-prompt").style.marginTop = "6rem";
 
     domLast.appendChild(container);
 
