@@ -438,7 +438,7 @@ function getIndex(){
 function search(event){
     event.preventDefault();
     var data = getIndex();
-    const THRESHOLD = 0.8;
+    const THRESHOLD = 0.7;
     
     let searchQuery = document.querySelector(".search-input").value;
     let result = [];
@@ -478,7 +478,7 @@ function showResults(resultData){
     
 
     var container = document.createElement("div");
-    container.setAttribute("class", "container-fluid");
+    container.setAttribute("class", "container");
 
     if (resultData.length === 0) {
         container.innerHTML="No result found!";
