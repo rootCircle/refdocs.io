@@ -523,6 +523,8 @@ function showResults(resultData){
 
 function jaroWinkler(s, t) {
     // Calculate length of both strings
+    s = s.toLowerCase();
+    t = t.toLowerCase();
     const n = s.length;
     const m = t.length;
 
