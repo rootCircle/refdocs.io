@@ -5,15 +5,28 @@ body{
 }
 /* ----------------CLASS SELECTORS-------------------------- */
 .heading{
-    margin-top: 3rem;
-    color: #b5b2b2;
+    /* margin-top: 3rem; */
+    color: #2f2a2a;
+    /* font-size: 10rem; */
+    margin-top:12rem;
 }
 
 .card{
-    background-color: #DF2771;
+    background-color: #d01654;
+    color: #ffffff;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
 }
 .card:hover{
-    background-color: #be2864;
+    /* background-color: #be2864; */
+    /* background-color: #bf446d; */
+    /* transition:cubic-bezier(1, 0, 0, 1); */
+    box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	/* transform: translateY(-50px); */
+    transform: scale(1.1);
+    transition-duration: .3s;
+
 }
   
 .row a{
@@ -279,4 +292,61 @@ a, button {
 	transition: all 1s;
 }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+ .btnA{
+  background-color: #E5E8EF;
+  color: #111;
+  border:none;
+  position:relative;
+  height:60px;
+  font-size:1.6em;
+  padding:0 2em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  /* margin:auto; */
+  /* margin-left:rem; */
+}
+.btnA:hover{
+  background:#d01654;
+  color:#ffffff;
+}
+.btnA:before,.btnA:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #ffffff;
+  transition:400ms ease all;
+}
+.btnA:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btnA:hover:before,.btnA:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+span{
 
+    color: #000;
+    /* margin: auto; */
+}
+span:hover{
+    color: #ffffff;
+}
+.card-body{
+margin:0px;
+align-items: center;
+}
+.row{
+display: flex;
+flex-wrap: wrap;    
+}
+.abtn{
+    align-items: center;
+    padding-left: auto;
+}
