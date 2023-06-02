@@ -775,7 +775,8 @@ position:relative;
 .gal h1{
 justify-content: center;
 text-align: center;
-font-size: 3rem;
+font-size: 4rem;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .wrapper {
     display: flex;
