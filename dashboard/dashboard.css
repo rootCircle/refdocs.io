@@ -14,12 +14,12 @@ body{
     opacity: 10;
 }
 .heading h1{
-font-family: fantasy;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size:4rem;
 opacity: 10;
 }
 .heading h3{
-font-family:fantasy;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size:2rem;
 opacity: 10;
 }
