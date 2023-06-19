@@ -2,11 +2,7 @@ package com.ksumit.login.UserController;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.ksumit.login.DataBaseImplement.UserInforamation;
 import com.ksumit.login.ReturnApi.ReturnApi;
@@ -23,13 +19,14 @@ public class UserController {
 
     private ReturnApi returnApi = new ReturnApi();
 
-    @GetMapping("/{email}/{password}")
-    public ResponseEntity<?> getResult(@PathVariable String email,@PathVariable String password){
+    @CrossOrigin
+    @PostMapping("/login")
+    public ResponseEntity<?> getResult(@RequestBody UserInforamation Detail){
 
         try{
-            boolean flage = this.service.getResult(email, password);
-            if(flage==true){
-                returnApi.setMessage("welcome to our cources !");
+            boolean flag = this.service.getResult(Detail.getEmail(), Detail.getPassword());
+            if(flag){
+                returnApi.setMessage("Success");
             }
             else{
                 throw new Exception("false");
@@ -37,17 +34,18 @@ public class UserController {
         }
         catch(Exception e){ 
             e.printStackTrace();
-            returnApi.setMessage("Your email or password will be wrong! please try again!!");
+            returnApi.setMessage("Your email or password is wrong! Please try again!!");
         }
         return ResponseEntity.ok(returnApi);
     }
 
+    @CrossOrigin
     @PostMapping("/")
     public ResponseEntity<?> addDetail(@RequestBody UserInforamation Detail){
         try{
-            boolean flage1 = this.service.addDetail(Detail);
-            if(flage1==true){
-                returnApi.setMessage("Succesfully you are register!");
+            boolean flag = this.service.addDetail(Detail);
+            if(flag){
+                returnApi.setMessage("You are registered successfully!");
             }
             else{
                 throw new Exception("false");
@@ -55,7 +53,7 @@ public class UserController {
         }
         catch(Exception e){
             e.printStackTrace();
-            returnApi.setMessage("Your email will be invalid / your are already register!");
+            returnApi.setMessage("Your email is invalid / or are already register!");
         }
         return ResponseEntity.ok(returnApi);
     }

@@ -10,10 +10,17 @@
 | Change naming semantic | onclick | onClick |  |
 | Changing function calls in onClick to JSX | onClick="([\w()'']+)" | onClick={$1} |  |
 | Convert inline CSS to normal ones (single property only) | style="([\w]+)(?:[ ]*):(?:[ ]*)([\w#]+)(?:;)?" | style={{$1"$2"}} |  |
+|  | src="..([\w/.]+)" | src="$1"  |  |
+|  | <!--[^(-->)]+--> |  |  |
 |  |  |  |  |
-
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 
 
 ## Notes
 Dealing with class="hi bro" | class="([\w-]+ )+[\w-]+"
+React has issues with normal DOM queries.
